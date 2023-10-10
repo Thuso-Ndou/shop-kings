@@ -11,7 +11,7 @@ function Header() {
     <nav className='header'>
         {/* logo */}
         <Link to='/'>
-            <img className='header__logo' src = 'https://raw.githubusercontent.com/Thuso-Ndou/Shop-Kings-Images/main/logo.jpg' alt=''/>
+            <img className='header__logo' src = 'https://raw.githubusercontent.com/Thuso-Ndou/Shop-Kings-Images/main/logo.svg' alt=''/>
         </Link>
 
         {/* search bar */}
@@ -21,7 +21,13 @@ function Header() {
         </div>
 
       <div className='header__nav'>
-        <Link className='menu' to='/'>Home</Link>
+        <Link className='header__link' to='/'>
+          <div className='header__option'>
+              <span className='header__optionLineOne'>Returns </span>
+              <span className='header__optionLineTwo'>& Orders</span>
+          </div>
+        </Link>
+
         <Link className='header__link' to='/login'>
           <div className='header__option'>
               <span className='header__optionLineOne'>Hello</span>
