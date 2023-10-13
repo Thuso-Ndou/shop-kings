@@ -14,7 +14,7 @@ function Subtotal() {
                 Subtotal ({cart.length} items): <strong>{` ${value} `}</strong>
             </p>
             <small className='subtotal__gift'>
-                <input type='checkbox'/> This order contains
+                <input type='checkbox'/> This order containsa gift
             </small>
             </>
         )}  decimalScale={2} value={getCartTotal(cart)} displayType={'text'} thousandSeparator={true} prefix='R'/>

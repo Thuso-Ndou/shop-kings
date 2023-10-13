@@ -31,7 +31,6 @@ function Checkout() {
         </div>
         {cart.length > 0 && (
             <div className='checkout__right'>
-                <h1>Subtotal</h1>
                 <Subtotal/>
             </div>
         )}
