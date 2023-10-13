@@ -20,12 +20,12 @@
 }
 
 .subtotal > button {
-    background: #87d51a;
+    background: rgb(13, 191, 43);
     border-radius: 2px;
     width: 100%;
     height: 30px;
     border: 1px solid;
     margin-top: 10px;
-    background-color: #87d51b #87d43e #87d69a;
-    color: #f111;
+    background-color: rgb(13, 191, 43) #87d43e #78cf8c;
+    color: black;
 }
