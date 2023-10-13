@@ -10,7 +10,7 @@ function Checkout() {
   return (
     <div className='checkout'>
         <div className='checkout__left'>
-        <img className='checkout__ad'  src='https://raw.githubusercontent.com/Thuso-Ndou/Shop-Kings-Images/main/checkoutAd.png' alt=''/>
+        <img className='checkout__ad'  src='https://raw.githubusercontent.com/Thuso-Ndou/Shop-Kings-Images/main/checkoutBanner.png' alt=''/>
         {cart?.length === 0 ? (
             <div>
                 <h2>Your Cart Is Empty</h2>

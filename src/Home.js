@@ -5,7 +5,7 @@ import './Home.css';
 function Home() {
   return (
     <div className='home'>
-        <img className='home__image' src='https://raw.githubusercontent.com/Thuso-Ndou/Shop-Kings-Images/main/Dark Blue.png'  alt=''/>
+        <img className='home__image' src='https://raw.githubusercontent.com/Thuso-Ndou/Shop-Kings-Images/main/banner.png'  alt=''/>
 
         {/* Product with title, price, rating, image */}
         <div className='home__row'>
