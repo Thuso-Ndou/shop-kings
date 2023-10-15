@@ -1,8 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Login.css';
 
 function Login() {
+  const [ email, setEmail] = useState('');
+  const [ password, setPassword] = useState('');
+  const signIn = e => {
+    e.preventDefault();
+
+    // firebase signin code
+  };
+
+  const signUp = e => {
+    e.preventDefault();
+
+    // firebase signup code
+  };
+
   return (
     <div className='login'>
         <Link to='/'>
@@ -14,12 +28,12 @@ function Login() {
 
           <form>
             <h5>E-mail</h5>
-            <input type='text'/>
+            <input type='text' value={email} onChange={e => setEmail(e.target.value)}/>
 
             <h5>Password</h5>
-            <input type='password'/>
+            <input type='password' value={password} onChange={e => setPassword(e.target.value)}/>
 
-            <button className='btn__signin'>Sign In</button>
+            <button className='btn__signin' type='submit' onClick={signIn}>Sign In</button>
           </form>
 
           <p>
@@ -28,7 +42,7 @@ function Login() {
             see our Privacy Notice, our Cookies Noticeand our interest based Ads Notice.
           </p>
 
-          <button className='btn__signup'>Create Account</button>
+          <button className='btn__signup' onClick={signUp}>Create Account</button>
         </div>
     </div>
   )
