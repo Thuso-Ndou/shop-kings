@@ -21,10 +21,21 @@ function Header() {
         </div>
 
       <div className='header__nav'>
+      <Link className='header__link' to='/'>
+          <div className='header__option'>
+              <span className='header__optionLineOne'>Men </span>
+          </div>
+        </Link>
+
         <Link className='header__link' to='/'>
           <div className='header__option'>
-              <span className='header__optionLineOne'>Returns </span>
-              <span className='header__optionLineTwo'>& Orders</span>
+              <span className='header__optionLineOne'>Women </span>
+          </div>
+        </Link>
+
+        <Link className='header__link' to='/'>
+          <div className='header__option'>
+              <span className='header__optionLineOne'>About </span>
           </div>
         </Link>
 

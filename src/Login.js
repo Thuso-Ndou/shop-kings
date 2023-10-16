@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
-import {auth} from './Firebase';
+import { signInWithEmailAndPassword } from 'firebase/auth';
+import { createUserWithEmailAndPassword } from 'firebase/auth';
+import {auth} from './firebase';
 import { Link, useNavigate } from 'react-router-dom';
 import './Login.css';
 
-function Login() {
+const Login = () => {
   const navigate = useNavigate();
   const [ email, setEmail] = useState('');
   const [ password, setPassword] = useState('');
@@ -11,9 +13,9 @@ function Login() {
     e.preventDefault();
 
     // firebase signin code
-    auth.signInWithEmailAndPassword(email, password)
-            .then(auth => {
-                navigate.push('/')
+    signInWithEmailAndPassword(auth, email, password)
+            .then((userCredential) => {
+              navigate.push('/');
             })
             .catch(error => alert(error.message))
   };
@@ -22,12 +24,11 @@ function Login() {
     e.preventDefault();
 
     // firebase signup code
-     auth
-            .createUserWithEmailAndPassword(email, password)
+    createUserWithEmailAndPassword(auth, email, password)
             .then((auth) => {
                 // it successfully created a new user with email and password
                 if (auth) {
-                    navigate.push('/')
+                    navigate.push('/');
                 }
             })
             .catch(error => alert(error.message))
@@ -42,7 +43,7 @@ function Login() {
         <div className='login__container'>
           <h1>Sign In</h1>
 
-          <form>
+          <form onSubmit={signIn}>
             <h5>E-mail</h5>
             <input type='text' value={email} onChange={e => setEmail(e.target.value)}/>
 
