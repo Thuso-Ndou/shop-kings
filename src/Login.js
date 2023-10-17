@@ -15,7 +15,7 @@ const Login = () => {
     // firebase signin code
     signInWithEmailAndPassword(auth, email, password)
             .then((userCredential) => {
-              navigate.push('/');
+              navigate('/');
             })
             .catch(error => alert(error.message))
   };
@@ -28,7 +28,7 @@ const Login = () => {
             .then((auth) => {
                 // it successfully created a new user with email and password
                 if (auth) {
-                    navigate.push('/');
+                    navigate('/');
                 }
             })
             .catch(error => alert(error.message))
