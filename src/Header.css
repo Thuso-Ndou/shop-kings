@@ -19,8 +19,13 @@
     margin-right: 10px;
 }
 
+.header__optionCart:hover, .header__option:hover {
+    color: rgb(13, 191, 43,0.8);
+    transition: 0.2s;
+}
+
 .header__optionLineOne {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .header__optionCart {
@@ -33,7 +38,7 @@
 }
 
 .header__optionLineTwo {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 800;
 }
 
