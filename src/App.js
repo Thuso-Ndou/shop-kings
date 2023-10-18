@@ -5,6 +5,7 @@ import Login from './Login';
 import Checkout from './Checkout';
 import Header from './Header';
 import './App.css';
+import { onAuthStateChanged } from "firebase/auth";
 import { auth } from './firebase';
 import { useStateValue } from './StateProvider';
 
@@ -12,7 +13,7 @@ function App() {
   const [, dispatch] = useStateValue();
 
   useEffect(() => {
-    auth.onAuthStateChanged(authUser => {
+    const listen  = onAuthStateChanged(auth, (authUser) => {
       console.log("The user is->",authUser);
 
       if(authUser){
@@ -27,7 +28,10 @@ function App() {
         });
       }
     })
-  })
+    return () => {
+      listen();
+    } 
+  }, [dispatch]); // <-- Add dispatch to the dependency array
 
   return (
     <Routes>
@@ -55,4 +59,3 @@ function App() {
 }
 
 export default App;
-
