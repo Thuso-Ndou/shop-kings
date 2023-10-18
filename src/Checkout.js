@@ -5,7 +5,7 @@ import CheckoutProduct from './CheckoutProduct';
 import Subtotal from './Subtotal';
 
 function Checkout() {
-    const [{ cart, user }] = useStateValue();
+    const [{ cart }] = useStateValue();
 
   return (
     <div className='checkout'>
@@ -13,7 +13,6 @@ function Checkout() {
         <img className='checkout__ad'  src='https://raw.githubusercontent.com/Thuso-Ndou/Shop-Kings-Images/main/checkoutBanner.png' alt=''/>
         {cart?.length === 0 ? (
             <div>
-                <h3>{user?.email}</h3>
                 <h2>Your Cart Is Empty</h2>
                 <p>
                     You have no items in your basket
@@ -21,7 +20,6 @@ function Checkout() {
             </div>
         ) : (
             <div>
-                <h3>{user?.email}</h3>
                 <h2 className='checkout__title'>Your Shopping Basket</h2>
 
                 {/* List out all of the checkout products */}
