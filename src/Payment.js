@@ -2,16 +2,16 @@ import React, { useState, useEffect } from 'react';
 import './Payment.css';
 import { useStateValue } from "./StateProvider";
 import CheckoutProduct from "./CheckoutProduct";
-import { Link, useHistory } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { CardElement, useStripe, useElements } from "@stripe/react-stripe-js";
 import CurrencyFormat from "react-currency-format";
-import { getBasketTotal } from "./reducer";
+import { getCartTotal } from "./reducer";
 import axios from './axios';
 import { db } from "./firebase";
 
 function Payment() {
     const [{ cart, user }, dispatch] = useStateValue();
-    const history = useHistory();
+    const navigate = useNavigate();
 
     const stripe = useStripe();
     const elements = useElements();
@@ -28,7 +28,7 @@ function Payment() {
             const response = await axios({
                 method: 'post',
                 // Stripe expects the total in a currencies subunits
-                url: `/payments/create?total=${getBasketTotal(cart) * 100}`
+                url: `/payments/create?total=${getCartTotal(cart) * 100}`
             });
             setClientSecret(response.data.clientSecret)
         }
@@ -70,7 +70,7 @@ function Payment() {
                 type: 'EMPTY_BASKET'
             })
 
-            history.replace('/orders')
+            navigate.replace('/orders')
         })
 
     }
@@ -99,8 +99,8 @@ function Payment() {
                     </div>
                     <div className='payment__address'>
                         <p>{user?.email}</p>
-                        <p>123 React Lane</p>
-                        <p>Los Angeles, CA</p>
+                        <p>6979 Injasuti</p>
+                        <p>Midrand, GP</p>
                     </div>
                 </div>
 
@@ -140,7 +140,7 @@ function Payment() {
                                             <h3>Order Total: {value}</h3>
                                         )}
                                         decimalScale={2}
-                                        value={getBasketTotal(cart)}
+                                        value={getCartTotal(cart)}
                                         displayType={"text"}
                                         thousandSeparator={true}
                                         prefix={"$"}
