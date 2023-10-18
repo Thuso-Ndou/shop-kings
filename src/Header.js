@@ -29,21 +29,21 @@ function Header() {
         </div>
 
       <div className='header__nav'>
-      <Link className='header__link' to='/'>
+      <Link className='header__link' to='/men'>
           <div className='header__option'>
               <span className='header__optionLineOne'>Men </span>
               <span className='header__optionLineTwo'>Clothing</span>
           </div>
         </Link>
 
-        <Link className='header__link' to='/'>
+        <Link className='header__link' to='/women'>
           <div className='header__option'>
               <span className='header__optionLineOne'>Women </span>
               <span className='header__optionLineTwo'>Clothing</span>
           </div>
         </Link>
 
-        <Link className='header__link' to='/'>
+        <Link className='header__link' to='/about'>
           <div className='header__option'>
               <span className='header__optionLineOne'>About </span>
               <span className='header__optionLineTwo'>Us</span>

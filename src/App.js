@@ -4,6 +4,9 @@ import Home from './Home';
 import Login from './Login';
 import Checkout from './Checkout';
 import Header from './Header';
+import MenProduct from './MenProducts';
+import WomenProduct from './WomenProducts';
+import About from './About';
 import './App.css';
 import { onAuthStateChanged } from "firebase/auth";
 import { auth } from './firebase';
@@ -51,6 +54,33 @@ function App() {
           <>
             <Header />
             <Checkout />
+          </>
+        }
+      />
+      <Route
+        path='/men'
+        element={
+          <>
+            <Header />
+            <MenProduct />
+          </>
+        }
+      />
+      <Route
+        path='/women'
+        element={
+          <>
+            <Header />
+            <WomenProduct />
+          </>
+        }
+      />
+      <Route
+        path='/about'
+        element={
+          <>
+            <Header />
+            <About />
           </>
         }
       />
