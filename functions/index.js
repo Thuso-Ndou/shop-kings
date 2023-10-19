@@ -2,7 +2,7 @@ const functions = require("firebase-functions");
 const express = require("express");
 const cors = require("cors");
 const stripe = require("stripe")(
-  "/home/thuso/Documents/Crip/web_development/react-challenge-amazon-clone-d1137a224ed1417ac41597abd96cb3521f8efadd/functions/index.js"
+  "sk_test_51O2imWKagkfSGuynX5nozrYMqcWoktCaS7SBUrPUuwhLfvQosWxzKyu6tzoELXvkV0GwOuIG8kbJ5MTZ9XgcnHB200nIAFimwC"
 );
 
 // API
