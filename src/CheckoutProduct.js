@@ -24,11 +24,11 @@ function CheckoutProduct({ id, title, image, price, rating}) {
             </p>
             <div className='checkoutProduct__rating'>
                 {Array(rating).fill().map((_, i) => (
-                    <p>*</p>
+                    <p>⭐</p>
                 ))}
             </div>
 
-            <button onClick={RemoveFromCart}>Remove From Cart</button>
+            <button onClick={RemoveFromCart}>Remove Item</button>
         </div>
     </div>
   )

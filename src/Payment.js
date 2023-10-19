@@ -6,7 +6,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { CardElement, useStripe, useElements } from "@stripe/react-stripe-js";
 import CurrencyFormat from "react-currency-format";
 import { getCartTotal } from "./reducer";
-import axios from './axios';
+import axios from "./axios";
 import { db } from "./firebase";
 
 function Payment() {
@@ -23,18 +23,15 @@ function Payment() {
     const [clientSecret, setClientSecret] = useState(true);
 
     useEffect(() => {
-        // generate the special stripe secret which allows us to charge a customer
-        const getClientSecret = async () => {
+        const getClientSecret  = async () => {
             const response = await axios({
                 method: 'post',
-                // Stripe expects the total in a currencies subunits
                 url: `/payments/create?total=${getCartTotal(cart) * 100}`
             });
-            setClientSecret(response.data.clientSecret)
+            setClientSecret(response.data.clientSecret);
         }
-
         getClientSecret();
-    }, [cart])
+      }, [cart]);
 
     console.log('THE SECRET IS >>>', clientSecret)
     console.log('👱', user)
@@ -63,8 +60,8 @@ function Payment() {
               })
 
             setSucceeded(true);
-            setError(null)
-            setProcessing(false)
+            setError(null);
+            setProcessing(false);
 
             dispatch({
                 type: 'EMPTY_BASKET'
@@ -143,7 +140,7 @@ function Payment() {
                                         value={getCartTotal(cart)}
                                         displayType={"text"}
                                         thousandSeparator={true}
-                                        prefix={"$"}
+                                        prefix={"R"}
                                     />
                                     <button disabled={processing || disabled || succeeded}>
                                         <span>{processing ? <p>Processing</p> : "Buy Now"}</span>
@@ -160,4 +157,4 @@ function Payment() {
     )
 }
 
-export default Payment
+export default Payment;
