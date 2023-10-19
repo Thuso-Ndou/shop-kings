@@ -11,13 +11,13 @@ const stripe = require("stripe")(
 const app = express();
 
 // - Middlewares
-app.use(cors({origin: true}));
+app.use(cors());
 app.use(express.json());
 
 // - API routes
 app.get("/", (request, response) => response.status(200).send("hello coders"));
 
-app.post("/payments/create", async (request, response) => {
+app.post("/payment/create", async (request, response) => {
   const total = request.query.total;
 
   console.log("Payment Request Recieved for this amount >>> ", total);

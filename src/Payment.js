@@ -26,7 +26,7 @@ function Payment() {
         const getClientSecret  = async () => {
             const response = await axios({
                 method: 'post',
-                url: `/payments/create?total=${getCartTotal(cart) * 100}`
+                url: `/payment/create?total=${getCartTotal(cart) * 100}`
             });
             setClientSecret(response.data.clientSecret);
         }
@@ -48,16 +48,7 @@ function Payment() {
         }).then(({ paymentIntent }) => {
             // paymentIntent = payment confirmation
 
-            db
-              .collection('users')
-              .doc(user?.uid)
-              .collection('orders')
-              .doc(paymentIntent.id)
-              .set({
-                  basket: cart,
-                  amount: paymentIntent.amount,
-                  created: paymentIntent.created
-              })
+           
 
             setSucceeded(true);
             setError(null);
@@ -67,7 +58,7 @@ function Payment() {
                 type: 'EMPTY_BASKET'
             })
 
-            navigate.replace('/orders')
+            navigate('/orders', { replace: true });
         })
 
     }
