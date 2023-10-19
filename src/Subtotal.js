@@ -22,7 +22,7 @@ function Subtotal() {
             </>
         )}  decimalScale={2} value={getCartTotal(cart)} displayType={'text'} thousandSeparator={true} prefix='R'/>
 
-        <button onClick={e => navigate('/payment')}>Proceed to checkout</button>
+        <button onClick={e => navigate('/payment')} disabled={cart.length === 0}>Proceed to checkout</button>
     </div>
   )
 }
