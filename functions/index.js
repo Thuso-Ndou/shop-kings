@@ -5,8 +5,6 @@ const stripe = require("stripe")(
   "sk_test_51O2imWKagkfSGuynX5nozrYMqcWoktCaS7SBUrPUuwhLfvQosWxzKyu6tzoELXvkV0GwOuIG8kbJ5MTZ9XgcnHB200nIAFimwC"
 );
 
-// API
-
 // - App config
 const app = express();
 
@@ -35,6 +33,3 @@ app.post("/payments/create", async (request, response) => {
 
 // - Listen command
 exports.api = functions.https.onRequest(app);
-
-// Example endpoint
-// http://localhost:5001/challenge-4b2b2/us-central1/api
