@@ -14,6 +14,11 @@ const reducer = (state, action) =>{
                 ...state,
                 cart: [...state.cart, action.item]
             }
+        case 'EMPTY_CART':
+            return{
+                ...state, 
+                cart : []
+            }
         case 'REMOVE_FROM_CART':
             // create a cart clone
             let newCart = [...state.cart];

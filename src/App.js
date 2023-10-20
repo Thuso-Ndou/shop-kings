@@ -5,6 +5,7 @@ import Login from './Login';
 import Checkout from './Checkout';
 import Header from './Header';
 import MenProduct from './MenProducts';
+import Orders from './Order';
 import WomenProduct from './WomenProducts';
 import About from './About';
 import Payment from './Payment';
@@ -49,6 +50,15 @@ function App() {
           <>
             <Header />
             <Home />
+          </>
+        }
+      />
+      <Route
+        path='/orders'
+        element={
+          <>
+            <Header />
+            <Orders />
           </>
         }
       />

@@ -47,9 +47,10 @@ function Payment() {
             }
         }).then(({ paymentIntent }) => {
             // paymentIntent = payment confirmation
-
+            dispatch({
+                type: 'EMPTY_CART'
+            })
            
-
             setSucceeded(true);
             setError(null);
             setProcessing(false);
