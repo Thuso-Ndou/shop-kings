@@ -7,7 +7,6 @@ import { CardElement, useStripe, useElements } from "@stripe/react-stripe-js";
 import CurrencyFormat from "react-currency-format";
 import { getCartTotal } from "./reducer";
 import axios from "./axios";
-import { db } from "./firebase";
 
 function Payment() {
     const [{ cart, user }, dispatch] = useStateValue();
@@ -20,7 +19,7 @@ function Payment() {
     const [processing, setProcessing] = useState("");
     const [error, setError] = useState(null);
     const [disabled, setDisabled] = useState(true);
-    const [clientSecret, setClientSecret] = useState(true);
+    const [clientSecret, setClientSecret] = useState("");
 
     useEffect(() => {
         const getClientSecret  = async () => {

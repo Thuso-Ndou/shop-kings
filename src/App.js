@@ -5,7 +5,7 @@ import Login from './Login';
 import Checkout from './Checkout';
 import Header from './Header';
 import MenProduct from './MenProducts';
-import Orders from './Order';
+import Orders from './Orders';
 import WomenProduct from './WomenProducts';
 import About from './About';
 import Payment from './Payment';

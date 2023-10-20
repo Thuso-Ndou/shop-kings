@@ -11,13 +11,13 @@ const stripe = require("stripe")(
 const app = express();
 
 // - Middlewares
-app.use(cors());
+app.use(cors({origin: true}));
 app.use(express.json());
 
 // - API routes
 app.get("/", (request, response) => response.status(200).send("hello coders"));
 
-app.post("/payment/create", async (request, response) => {
+app.post("/payments/create", async (request, response) => {
   const total = request.query.total;
 
   console.log("Payment Request Recieved for this amount >>> ", total);
@@ -35,3 +35,6 @@ app.post("/payment/create", async (request, response) => {
 
 // - Listen command
 exports.api = functions.https.onRequest(app);
+
+// Example endpoint
+// http://localhost:5001/challenge-4b2b2/us-central1/api
