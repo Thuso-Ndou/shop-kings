@@ -7,7 +7,7 @@ import { CardElement, useStripe, useElements } from "@stripe/react-stripe-js";
 import CurrencyFormat from "react-currency-format";
 import { getCartTotal } from "./reducer";
 import axios from "./axios";
-import { db } from './firebase';
+import { db, doc, setDoc } from './firebase';
 
 function Payment() {
     const [{ cart, user }, dispatch] = useStateValue();
@@ -33,42 +33,45 @@ function Payment() {
         getClientSecret();
       }, [cart]);
 
-    console.log('THE SECRET IS >>>', clientSecret)
-    console.log('👱', user)
-
-    const handleSubmit = async (event) => {
-        // do all the fancy stripe stuff...
+      const handleSubmit = async (event) => {
         event.preventDefault();
         setProcessing(true);
-
-        const payload = await stripe.confirmCardPayment(clientSecret, {
-            payment_method: {
-                card: elements.getElement(CardElement)
+    
+        const payload = await (async () => {
+            try {
+                const { paymentIntent } = await stripe.confirmCardPayment(clientSecret, {
+                    payment_method: {
+                        card: elements.getElement(CardElement)
+                    }
+                });
+    
+                const orderRef = doc(db, 'users', user?.uid, 'orders', paymentIntent.id);
+    
+                await setDoc(orderRef, {
+                    cart: cart,
+                    amount: paymentIntent.amount,
+                    created: paymentIntent.created
+                });
+    
+                dispatch({
+                    type: 'EMPTY_CART'
+                });
+    
+                setSucceeded(true);
+                setError(null);
+                setProcessing(false);
+    
+                dispatch({
+                    type: 'EMPTY_BASKET'
+                });
+    
+                navigate('/orders', { replace: true });
+            } catch (error) {
+                setError(error.message);
+                setProcessing(false);
             }
-        }).then(({ paymentIntent }) => {
-            // paymentIntent = payment confirmation
-            db.collection('users').doc(user?.id).collection('orders').doc(paymentIntent.id).set({
-                cart: cart,
-                amount: paymentIntent.amount,
-                created: paymentIntent.created
-            })
-
-            dispatch({
-                type: 'EMPTY_CART'
-            })
-           
-            setSucceeded(true);
-            setError(null);
-            setProcessing(false);
-
-            dispatch({
-                type: 'EMPTY_BASKET'
-            })
-
-            navigate('/orders', { replace: true });
-        })
-
-    }
+        })();
+    };    
 
     const handleChange = event => {
         // Listen for changes in the CardElement

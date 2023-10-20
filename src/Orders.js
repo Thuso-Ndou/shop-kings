@@ -1,26 +1,28 @@
 import React, { useState, useEffect } from 'react';
-import { db } from "./firebase";
+import { db, collection, query, orderBy, onSnapshot } from "./firebase"; // Updated imports
 import './Orders.css'
 import { useStateValue } from "./StateProvider";
 import Order from './Order'
 
 function Orders() {
-  const [{ cart, user }, dispatch] = useStateValue();
+  const [{ user }, ] = useStateValue();
   const [orders, setOrders] = useState([]);
 
   useEffect(() => {
     if(user) {
-        db
-        .collection('users')
-        .doc(user?.uid)
-        .collection('orders')
-        .orderBy('created', 'desc')
-        .onSnapshot(snapshot => (
-            setOrders(snapshot.docs.map(doc => ({
-                id: doc.id,
-                data: doc.data()
-            })))
-        ))
+        const ordersRef = collection(db, 'users', user?.uid, 'orders');
+        const q = query(ordersRef, orderBy('created', 'desc'));
+
+        const unsubscribe = onSnapshot(q, (snapshot) => {
+          setOrders(snapshot.docs.map(doc => ({
+            id: doc.id,
+            data: doc.data()
+          })));
+        });
+
+        return () => {
+          unsubscribe(); // Unsubscribe from the snapshot listener when component is unmounted
+        }
     } else {
         setOrders([])
     }
@@ -33,11 +35,11 @@ function Orders() {
 
             <div className='orders__order'>
                 {orders?.map(order => (
-                    <Order order={order} />
+                    <Order order={order} key={order.id} /> // Added key prop for optimization
                 ))}
             </div>
         </div>
     )
 }
 
-export default Orders
+export default Orders;
