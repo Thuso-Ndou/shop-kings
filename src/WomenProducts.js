@@ -49,11 +49,11 @@ export default function WomenProducts() {
         </div>
 
         <div className='home__row'>
-          <Product id='rippedGrande' title='The best selling sneakers' price={699.99} rating={5} image='https://cdn.media.amplience.net/i/mrpricegroup/01_102204842_SI_11?$preset$&w=320' />
+          <Product id='CROOK HEEL' title='CROOK BLACK WOMEN STYLISH HEELS' price={169.94} rating={5} image='https://cdn.media.amplience.net/i/mrpricegroup/01_102204842_SI_11?$preset$&w=320' />
 
-          <Product id='rippedGrande' title='The best selling sneakers' price={699.99} rating={5} image='https://cdn.media.amplience.net/i/mrpricegroup/01_102217959_SI_11?$preset$&w=320' />
+          <Product id='ZAKE SUMMER SANDAL' title='ZAKE WOMEN TWO STRIPED GRAY/DIAMOND SUMMER SANDALS' price={109.99} rating={3} image='https://cdn.media.amplience.net/i/mrpricegroup/01_102217959_SI_11?$preset$&w=320' />
 
-          <Product id='rippedGrande' title='The best selling sneakers' price={699.99} rating={5} image='https://cdn.media.amplience.net/i/mrpricegroup/01_102004262_SI_11?$preset$&w=320' />
+          <Product id='MARIA HEEL' title='MARIA OLD SCHOOL WOMEN HEELS CREAMISH PINK' price={229.99} rating={5} image='https://cdn.media.amplience.net/i/mrpricegroup/01_102004262_SI_11?$preset$&w=320' />
 
           <Product id='CAPA WOMEN HEELS' title='CAPA WOMEN PLASTIC LOW HEELS' price={59.99} rating={2} image='https://cdn.media.amplience.net/i/mrpricegroup/01_101837835_SI_11?$preset$&w=320' />
         </div>
