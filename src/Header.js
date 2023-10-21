@@ -1,20 +1,43 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import './Header.css';
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingBasketIcon from "@mui/icons-material/ShoppingCart";
 import { useStateValue } from './StateProvider';
+import Product from './Product';
 import {auth} from './firebase';
+import data from './data'; // Import the product data
 
 function Header() {
 
   const [{ cart, user }] = useStateValue();
+
+  const navigate = useNavigate();
+
+  const [searchQuery, setSearchQuery] = useState('');
+  const [filteredProducts, setFilteredProducts] = useState([]);
 
   const handleAuthentication = () => {
     if(auth){
       auth.signOut();
     }
   }
+
+  const handleSearchInputChange = (e) => {
+    setSearchQuery(e.target.value);
+  }
+
+  const handleSearchClick = () => {
+    const filteredProducts = data.productData.filter(product => {
+      const productName = product.title.toLowerCase();
+      return productName.includes(searchQuery.toLowerCase());
+    });
+    // Update the state
+    setFilteredProducts(filteredProducts); 
+    // Navigate to Search page
+    navigate('/search', { replace: true });
+  }
+
   return (
     <nav className='header'>
         {/* logo */}
@@ -24,8 +47,9 @@ function Header() {
 
         {/* search bar */}
         <div className='header__search'>
-            <input type='text' className='header__searchInput' />
-            <SearchIcon className='header__searchIcon'/>
+            <input type='text' className='header__searchInput' placeholder='Search Here...' value={searchQuery}
+            onChange={handleSearchInputChange}/>
+            <SearchIcon className='header__searchIcon'  onClick={handleSearchClick}/>
         </div>
 
       <div className='header__nav'>
@@ -74,6 +98,21 @@ function Header() {
         </Link>
 
       </div>
+
+      <div className="product__home">
+        <div className="home__row">
+        {filteredProducts.map(product => (
+          <Product
+            key={product.id}
+            id={product.id}
+            title={product.title}
+            price={product.price}
+            rating={product.rating}
+            image={product.image}
+          />
+        ))}
+      </div>
+    </div>
     </nav>
   )
 }

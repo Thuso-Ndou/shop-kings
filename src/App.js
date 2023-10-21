@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Home from './Home';
 import Login from './Login';
@@ -6,6 +6,7 @@ import Checkout from './Checkout';
 import Header from './Header';
 import MenProduct from './MenProducts';
 import Orders from './Orders';
+import Search from './Search';
 import WomenProduct from './WomenProducts';
 import About from './About';
 import Payment from './Payment';
@@ -19,11 +20,11 @@ import { Elements } from '@stripe/react-stripe-js';
 const promise = loadStripe('pk_test_51O2imWKagkfSGuynOKrVFkx3HxTBAQOYnhII39cFwgjcPsp2ItEHaZ1msSlQp6bNOxrTu1FegFkoDghIJ4QFeOXE00peoZI2AI');
 
 function App() {
+  const [filteredProducts] = useState([]);
   const [, dispatch] = useStateValue();
 
   useEffect(() => {
     const listen  = onAuthStateChanged(auth, (authUser) => {
-      console.log("The user is->",authUser);
 
       if(authUser){
         dispatch({
@@ -44,6 +45,15 @@ function App() {
 
   return (
     <Routes>
+       <Route
+        path='/search'
+        element={
+          <>
+            <Header />
+            <Search filteredProducts={filteredProducts}/>
+          </>
+        }
+      />
       <Route
         path='/'
         element={
