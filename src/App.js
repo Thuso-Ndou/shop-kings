@@ -53,7 +53,12 @@ function App() {
     <Routes>
       <Route
         path='/search'
-        element={<Search filteredProducts={filteredProducts} />}
+        element={
+        <>
+          <Header onSearch={handleSearch} />
+          <Search filteredProducts={filteredProducts} />
+        </>
+      }
       />
       <Route
         path='/'
@@ -68,7 +73,7 @@ function App() {
         path='/orders'
         element={
           <>
-            <Header />
+            <Header onSearch={handleSearch}/>
             <Orders />
           </>
         }
@@ -78,7 +83,7 @@ function App() {
         path='/checkout'
         element={
           <>
-            <Header />
+            <Header onSearch={handleSearch}/>
             <Checkout />
           </>
         }
@@ -87,7 +92,7 @@ function App() {
         path='/men'
         element={
           <>
-            <Header />
+            <Header onSearch={handleSearch}/>
             <MenProduct />
           </>
         }
@@ -96,7 +101,7 @@ function App() {
         path='/women'
         element={
           <>
-            <Header />
+            <Header onSearch={handleSearch}/>
             <WomenProduct />
           </>
         }
@@ -105,7 +110,7 @@ function App() {
         path='/about'
         element={
           <>
-            <Header />
+            <Header onSearch={handleSearch}/>
             <About />
           </>
         }
@@ -114,7 +119,7 @@ function App() {
         path='/payment'
         element={
           <>
-            <Header />
+            <Header onSearch={handleSearch}/>
             <Elements stripe={promise}>
               <Payment />
             </Elements>
