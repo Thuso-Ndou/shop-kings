@@ -106,6 +106,146 @@ const data = {
             image:'https://assets.superbalistcdn.co.za/300x432/filters:quality(75):format(jpg)/3391420/original.jpg'
         },
         {
+            id:'GRAVEL WOMEN SANDALS',
+            title:'GRAVEL WOMEN BLACK THICK SOLE LAYER SANDALS',
+            price:199.94,
+            rating:5,
+            image:'https://assets.superbalistcdn.co.za/300x432/filters:quality(75):format(jpg)/3387376/original.jpg'
+        },
+        {
+            id:'GAVIN WOMEN SNEAKERS',
+            title:'GAVIN WOMEN LO BROWN/WHITE SNEAKERS',
+            price:389.99,
+            rating:3,
+            image:'https://assets.superbalistcdn.co.za/300x432/filters:quality(75):format(jpg)/3383464/original.jpg'
+        },
+        {
+            id:'GAVIN HEEL',
+            title:'GAVIN WOMEN SEXY HEELS WHITE/ROSES',
+            price:249.99,
+            rating:4,
+            image:'https://assets.superbalistcdn.co.za/300x432/filters:quality(75):format(jpg)/3392243/original.jpg'
+        },
+        {
+            id:'WARRIOR WOMEN BOOTS',
+            title:'WARRIOR WOMEN FULL FOOT WINTER BOOTS',
+            price:569.99,
+            rating:5,
+            image:'https://zz.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/45/9653/1.jpg?8714'
+        },
+        {
+            id:'ANDE WOMEN SANDALS',
+            title:'ANDE WOMEN TOE POST FOOTBED MULE SANDALS',
+            price:119.95,
+            rating:5,
+            image:'https://zz.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/57/4723/1.jpg?3286'
+        },
+        {
+            id:'KINGS WOMEN BOOTS',
+            title:'KINGS WOMEN ROSTY LO HEEL BLACK BOOTS',
+            price:469.93,
+            rating:4,
+            image:'https://zz.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/64/9653/1.jpg?2086'
+        },
+        {
+            id:'HECA WOMEN SANDALS',
+            title:'HECA WOMEN VELCRO PLATFORM SLIDE SANDALS',
+            price:99.99,
+            rating:3,
+            image:'https://zz.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/83/2643/1.jpg?0487'
+        },
+        {
+            id:'UNREAL WOMEN SANDAL',
+            title:'UNREAL WOMEN ESPADRILLE SQ TOE WEDGE SANDALS',
+            price:329.99,
+            rating:5,
+            image:'https://www.shoecity.co.za/cdn/shop/files/LadiesSep-65.jpg?v=1692877454'
+        },
+        {
+            id:'CROOK HEEL',
+            title:'CROOK BLACK WOMEN STYLISH HEELS',
+            price:169.94,
+            rating:5,
+            image:'https://cdn.media.amplience.net/i/mrpricegroup/01_102204842_SI_11?$preset$&w=320'
+        },
+        {
+            id:'ZAKE SUMMER SANDAL',
+            title:'ZAKE WOMEN TWO STRIPED GRAY/DIAMOND SUMMER SANDALS',
+            price:109.99,
+            rating:3,
+            image:'https://cdn.media.amplience.net/i/mrpricegroup/01_102217959_SI_11?$preset$&w=320'
+        },
+        {
+            id:'MARIA HEEL',
+            title:'MARIA OLD SCHOOL WOMEN HEELS CREAMISH PINK',
+            price:229.99,
+            rating:5,
+            image:'https://cdn.media.amplience.net/i/mrpricegroup/01_102004262_SI_11?$preset$&w=320'
+        },
+        {
+            id:'CAPA WOMEN HEELS',
+            title:'CAPA WOMEN PLASTIC LOW HEELS',
+            price:59.99,
+            rating:2,
+            image:'https://cdn.media.amplience.net/i/mrpricegroup/01_101837835_SI_11?$preset$&w=320'
+        },
+        {
+            id: 2,
+            title: '',
+            image: '',
+            price: 2345,
+            rating: 3,
+        },
+        {
+            id: 2,
+            title: '',
+            image: '',
+            price: 2345,
+            rating: 3,
+        },
+        {
+            id: 2,
+            title: '',
+            image: '',
+            price: 2345,
+            rating: 3,
+        },
+        {
+            id: 2,
+            title: '',
+            image: '',
+            price: 2345,
+            rating: 3,
+        },
+        {
+            id: 2,
+            title: '',
+            image: '',
+            price: 2345,
+            rating: 3,
+        },
+        {
+            id: 2,
+            title: '',
+            image: '',
+            price: 2345,
+            rating: 3,
+        },
+        {
+            id: 2,
+            title: '',
+            image: '',
+            price: 2345,
+            rating: 3,
+        },
+        {
+            id: 2,
+            title: '',
+            image: '',
+            price: 2345,
+            rating: 3,
+        },
+        {
             id: 2,
             title: '',
             image: '',
