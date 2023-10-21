@@ -5,7 +5,7 @@ import './MenWomen.css';
 export default function WomenProducts() {
   return (
     <div className='product__home'>
-        <h1>Women Products</h1>
+        <h1 className='page__header'>Women Products</h1>
 
         {/* Product with title, price, rating, image */}
         <div className='home__row'>

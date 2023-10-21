@@ -4,6 +4,10 @@
     margin-right: auto;
 }
 
+.page__header {
+    text-align: center;
+}
+
 .home__row {
     display: flex;
     z-index: 1;
