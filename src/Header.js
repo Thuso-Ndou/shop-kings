@@ -32,7 +32,7 @@ function Header({ onSearch }) { // Add onSearch prop
     // Update the state
     onSearch(filteredProducts); // Use the onSearch prop to update the state
     // Navigate to Search page (if needed)
-    navigate('/search', { replace: true });
+    navigate(`/search?q=${searchQuery}`, { replace: true });
   }
 
   return (
