@@ -17,7 +17,7 @@ function Home() {
         </div>
 
         <div className='home__row'>
-        <Product id='ADRAYAND' title='ADRAYAND' price={349.95} rating={3} image='https://www.aldoshoes.co.za/wp-content/uploads/adrayand_multi_970_main_sq_nt_1000x1000.jpg' />
+        <Product id='ADRAYAND BRACELET' title='ADRAYAND BRACELET' price={349.95} rating={3} image='https://www.aldoshoes.co.za/wp-content/uploads/adrayand_multi_970_main_sq_nt_1000x1000.jpg' />
 
         <Product id='BLACK SOCKS' title='3 PACK BLACK SEAMLESS SOCKS' price={129.59} rating={4} image='https://www.shoecity.co.za/cdn/shop/products/121286.jpg?v=1623332071' />
 
@@ -25,7 +25,7 @@ function Home() {
         </div>
 
         <div className='home__row'>
-        <Product id='PLUSH BROWN' title='CLEAN AND SHINE 125ML' price={59.95} rating={5} image='https://www.shoecity.co.za/cdn/shop/products/a_86009444_n.png?v=1605012389' />
+        <Product id='PLUSH CLEAN AND SHINE' title='CLEAN AND SHINE 125ML' price={59.95} rating={5} image='https://www.shoecity.co.za/cdn/shop/products/a_86009444_n.png?v=1605012389' />
         </div>
     </div>
 
