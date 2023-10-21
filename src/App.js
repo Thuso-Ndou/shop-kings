@@ -1,5 +1,6 @@
+// App.js
 import React, { useEffect, useState } from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, useNavigate } from 'react-router-dom';
 import Home from './Home';
 import Login from './Login';
 import Checkout from './Checkout';
@@ -20,12 +21,12 @@ import { Elements } from '@stripe/react-stripe-js';
 const promise = loadStripe('pk_test_51O2imWKagkfSGuynOKrVFkx3HxTBAQOYnhII39cFwgjcPsp2ItEHaZ1msSlQp6bNOxrTu1FegFkoDghIJ4QFeOXE00peoZI2AI');
 
 function App() {
-  const [filteredProducts] = useState([]);
+  const [filteredProducts, setFilteredProducts] = useState([]);
   const [, dispatch] = useStateValue();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const listen  = onAuthStateChanged(auth, (authUser) => {
-
       if(authUser){
         dispatch({
           type: 'SET_USER',
@@ -41,24 +42,24 @@ function App() {
     return () => {
       listen();
     } 
-  }, [dispatch]); // <-- Add dispatch to the dependency array
+  }, [dispatch]);
+
+  const handleSearch = (filteredProducts) => {
+    setFilteredProducts(filteredProducts);
+    navigate('/search');
+  }
 
   return (
     <Routes>
-       <Route
+      <Route
         path='/search'
-        element={
-          <>
-            <Header />
-            <Search filteredProducts={filteredProducts}/>
-          </>
-        }
+        element={<Search filteredProducts={filteredProducts} />}
       />
       <Route
         path='/'
         element={
           <>
-            <Header />
+            <Header onSearch={handleSearch}/>
             <Home />
           </>
         }

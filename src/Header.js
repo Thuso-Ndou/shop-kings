@@ -1,21 +1,18 @@
+// Header.js
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './Header.css';
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingBasketIcon from "@mui/icons-material/ShoppingCart";
 import { useStateValue } from './StateProvider';
-import Product from './Product';
 import {auth} from './firebase';
 import data from './data'; // Import the product data
 
-function Header() {
-
+function Header({ onSearch }) { // Add onSearch prop
   const [{ cart, user }] = useStateValue();
-
   const navigate = useNavigate();
 
   const [searchQuery, setSearchQuery] = useState('');
-  const [filteredProducts, setFilteredProducts] = useState([]);
 
   const handleAuthentication = () => {
     if(auth){
@@ -33,8 +30,8 @@ function Header() {
       return productName.includes(searchQuery.toLowerCase());
     });
     // Update the state
-    setFilteredProducts(filteredProducts); 
-    // Navigate to Search page
+    onSearch(filteredProducts); // Use the onSearch prop to update the state
+    // Navigate to Search page (if needed)
     navigate('/search', { replace: true });
   }
 
@@ -42,7 +39,7 @@ function Header() {
     <nav className='header'>
         {/* logo */}
         <Link to='/'>
-            <img className='header__logo' src = 'https://raw.githubusercontent.com/Thuso-Ndou/Shop-Kings-Images/main/logo.svg' alt=''/>
+            <img className='header__logo' src='https://raw.githubusercontent.com/Thuso-Ndou/Shop-Kings-Images/main/logo.svg' alt=''/>
         </Link>
 
         {/* search bar */}
@@ -98,21 +95,6 @@ function Header() {
         </Link>
 
       </div>
-
-      <div className="product__home">
-        <div className="home__row">
-        {filteredProducts.map(product => (
-          <Product
-            key={product.id}
-            id={product.id}
-            title={product.title}
-            price={product.price}
-            rating={product.rating}
-            image={product.image}
-          />
-        ))}
-      </div>
-    </div>
     </nav>
   )
 }
