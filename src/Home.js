@@ -9,21 +9,23 @@ function Home() {
 
         {/* Product with title, price, rating, image */}
         <div className='home__row'>
-            <Product id='shots' title='The best selling summer shots, get yours today.' price={299.99} rating={4} image='https://stevemadden.co.za/cdn/shop/files/SMS199_Pink_Front_grande.jpg?v=1691390086' />
+            <Product id='LERY WATCH' title='LERY BLACK STYLISH WATCH' price={299.99} rating={4} image='https://www.aldoshoes.co.za/wp-content/uploads/artillery_silver_040_main_sq_nt_1000x1000.jpg' />
 
-            <Product id='shoes' title='Steve Madden The best selling sneakers' price={1200.95} rating={3} image='https://stevemadden.co.za/cdn/shop/products/STEVEMADDEN-SHOES_POSSESSION_BLACK-1_grande.jpg?v=1683808967' />
+            <Product id='REICIA WOMEN GLASSES' title='REICIA WOMEN OVERSIZED BLACK SUNGLASSES' price={209.95} rating={4} image='https://www.aldoshoes.co.za/wp-content/uploads/greicia_multi_970_main_sq_nt_1000x1000.jpg' />
+
+            <Product id='NITALI BRACELET' title='NITALI STYLISH BRACELET' price={129.95} rating={3} image='https://www.aldoshoes.co.za/wp-content/uploads/nitali_brown_200_main_sq_nt_1000x1000.jpg' />
         </div>
 
         <div className='home__row'>
-        <Product id='nude' title='The best selling sneakers' price={149.95} rating={3} image='https://stevemadden.co.za/cdn/shop/files/STEVEMADDEN-INTL_LIGHT-UP_NUDE_b090b967-3b63-4f75-b6c7-eb3bb984184e_grande.jpg?v=1690449466' />
+        <Product id='ADRAYAND' title='ADRAYAND' price={349.95} rating={3} image='https://www.aldoshoes.co.za/wp-content/uploads/adrayand_multi_970_main_sq_nt_1000x1000.jpg' />
 
-        <Product id='grande' title='The best selling sneakers' price={129.59} rating={4} image='https://stevemadden.co.za/cdn/shop/products/STEVEMADDEN-SHOES_CLASH_BLACK_grande.jpg?v=1686245476' />
+        <Product id='BLACK SOCKS' title='3 PACK BLACK SEAMLESS SOCKS' price={129.59} rating={4} image='https://www.shoecity.co.za/cdn/shop/products/121286.jpg?v=1623332071' />
 
-        <Product id='rhinestone' title='The best selling sneakers' price={864.97} rating={3} image='https://stevemadden.co.za/cdn/shop/products/STEVEMADDEN-SHOES_SAPPHIRE_RHINESTONES_grande_db315855-1576-4b62-a2f8-e6cf50454cb8_grande.webp?v=1695709487' />
+        <Product id='PLUSH SHOE CREAM' title='SHOE CREAM 50ML' price={44.95} rating={3} image='https://www.shoecity.co.za/cdn/shop/products/a_86007739_black.png?v=1605013050' />
         </div>
 
         <div className='home__row'>
-        <Product id='rippedGrande' title='The best selling sneakers' price={699.99} rating={5} image='https://stevemadden.co.za/cdn/shop/files/SMD189_DARK_RIPPED_grande.jpg?v=1689533906' />
+        <Product id='PLUSH BROWN' title='CLEAN AND SHINE 125ML' price={59.95} rating={5} image='https://www.shoecity.co.za/cdn/shop/products/a_86009444_n.png?v=1605012389' />
         </div>
     </div>
 
