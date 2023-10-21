@@ -19,9 +19,9 @@ export default function WomenProducts() {
         </div>
 
         <div className='home__row'>
-         <Product id='STEVE MADDEN' title='STEVE MADDEN INTL LIGHT-UP NUDE' price={149.95} rating={3} image='https://stevemadden.co.za/cdn/shop/files/STEVEMADDEN-INTL_LIGHT-UP_NUDE_b090b967-3b63-4f75-b6c7-eb3bb984184e_grande.jpg?v=1690449466' />
+         <Product id='STEVE MADDEN' title='STEVE MADDEN INTL LIGHT-UP NUDE HEELS' price={149.95} rating={3} image='https://stevemadden.co.za/cdn/shop/files/STEVEMADDEN-INTL_LIGHT-UP_NUDE_b090b967-3b63-4f75-b6c7-eb3bb984184e_grande.jpg?v=1690449466' />
 
-          <Product id='STEDEN SHOES' title='STEDEN SHOES CLASH BLACK GRANDE' price={499.95} rating={4} image='https://stevemadden.co.za/cdn/shop/products/STEVEMADDEN-SHOES_CLASH_BLACK_grande.jpg?v=1686245476' />
+          <Product id='STEDEN SHOES' title='STEDEN WOMEN SHOES CLASH BLACK GRANDE' price={499.95} rating={4} image='https://stevemadden.co.za/cdn/shop/products/STEVEMADDEN-SHOES_CLASH_BLACK_grande.jpg?v=1686245476' />
 
           <Product id='NEST LONG LEG HEEL' title='NEST LONG LEG HEEL SHOES SAPPHIRE RHINESTONE GRAY' price={699.97} rating={4} image='https://stevemadden.co.za/cdn/shop/products/STEVEMADDEN-SHOES_SAPPHIRE_RHINESTONES_grande_db315855-1576-4b62-a2f8-e6cf50454cb8_grande.webp?v=1695709487' />
 
