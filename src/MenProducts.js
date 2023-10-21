@@ -35,7 +35,7 @@ export default function ManProducts() {
 
           <Product id='KOA FORMAL' title='KAO FORMAL MEN HIGH SHINE LOAFER' price={879.99} rating={4} image='https://cdn.shopify.com/s/files/1/0384/6379/9429/files/MensSep-58_360x.jpg?v=1692179365' />
 
-          <Product id='LENDE FORMAL' title='LENDE MENS FORMAL LACE UP SHOE' price={679.97} rating={5} image='https://cdn.shopify.com/s/files/1/0035/9405/9887/products/STEVEMADDEN_SHOES_ZATE_BLACK-LEATHER_SIDE_510x.jpg?v=1684937695' />
+          <Product id='LENDE FORMAL' title='LENDE MENS FORMAL LACE UP SHOES' price={679.97} rating={5} image='https://cdn.shopify.com/s/files/1/0035/9405/9887/products/STEVEMADDEN_SHOES_ZATE_BLACK-LEATHER_SIDE_510x.jpg?v=1684937695' />
         </div>
 
         <div className='home__row'>

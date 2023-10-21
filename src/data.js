@@ -253,18 +253,88 @@ const data = {
             image:'https://cdn.shopify.com/s/files/1/0384/6379/9429/files/MensSep-30_360x.jpg?v=1693481467'
         },
         {
-            id: 2,
-            title: '',
-            image: '',
-            price: 2345,
-            rating: 3,
+            id:'AVENTER SANDALS',
+            title:'AVENTER MEN CUT OUT SLIDE',
+            price:175.99,
+            rating:3,
+            image:'https://cdn.shopify.com/s/files/1/0384/6379/9429/files/MensAUG-78_360x.jpg?v=1692862096'
         },
         {
-            id: 2,
+            id:'KOA FORMAL',
+            title:'KAO FORMAL MEN HIGH SHINE LOAFER',
+            price:879.99,
+            rating:4,
+            image:'https://cdn.shopify.com/s/files/1/0384/6379/9429/files/MensSep-58_360x.jpg?v=1692179365'
+        },
+        {
+            id:'LENDE FORMAL',
+            title:'LENDE MENS FORMAL LACE UP SHOES',
+            price:679.97,
+            rating:5,
+            image:'https://cdn.shopify.com/s/files/1/0035/9405/9887/products/STEVEMADDEN_SHOES_ZATE_BLACK-LEATHER_SIDE_510x.jpg?v=1684937695'
+        },
+        {
+            id:'ADIDAS SHOES',
+            title:'ADIDAS PERFORMANCE PARK ST MENS SHOES CARBON ALUMINIUM EARTH STRATA',
+            price:1499.99,
+            rating:4,
+            image:'https://cdn.shopify.com/s/files/1/0035/9405/9887/files/STEVEMADDEN-SHOES_PRIZE_GREY_SIDE_510x.jpg?v=1686832392'
+        },
+        {
+            id:'NIKE COURT',
+            title:'NIKE COURT VISION LO MENS SHOES SAIL/BROWN',
+            price:1299.99,
+            rating:5,
+            image:'https://assets.superbalistcdn.co.za/300x432/filters:quality(75):format(jpg)/3387709/original.jpg'
+        },
+        {
+            id:'NIKE AIR SNEAKERS',
+            title:'NIKE AIR HUARACHE CRAFT MEN SHOES BLACK/NAVY',
+            price:2239.99,
+            rating:5,
+            image:'https://assets.superbalistcdn.co.za/300x432/filters:quality(75):format(jpg)/3388239/original.jpg'
+        },
+        {
+            id:'PUMA REBOUND',
+            title:'PUMA REBOUND V6 HIGH MEN SHOES RED',
+            price:849.99,
+            rating:4,
+            image:'https://assets.superbalistcdn.co.za/300x432/filters:quality(75):format(jpg)/3394814/original.jpg'
+        },
+        {
+            id:'PUMA',
+            title:'PUMA TRINITY OPEN ROAD MENS SHOES BLACK/HOT HEAT',
+            price:1499.99,
+            rating:5,
+            image:'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3394434/original.jpg'
+        },
+        {
+            id:'CONVERSE ALL STAR',
+            title:'CONVERSE ALL STAR CHUCK TAYLOR LO MENS SNEAKER ',
+            price:949.99,
+            rating:5,
+            image:'https://assets.superbalistcdn.co.za/300x432/filters:quality(75):format(jpg)/3395249/original.jpg'
+        },
+        {
+            id:'ADIDAS PERFORMANCE SNEAKER',
+            title:'ADIDAS PERFORMANCE MENS RUN50S MENS SHOES RED INK',
+            price:999.99,
+            rating:5,
+            image:'https://assets.superbalistcdn.co.za/300x432/filters:quality(75):format(jpg)/3398914/original.jpg'
+        },
+        {
+            id:'STEVE MADDEN SLATER SNEAKER',
+            title:'STEVE MADDEN MEN SLATER BLACK MULTI-GRANDE',
+            price:1199.99,
+            rating:5,
+            image:'https://stevemadden.co.za/cdn/shop/files/STEVEMADDEN-MENS_SLATER_BLACK-MULTI_grande.jpg?v=1685364088'
+        },
+        {
+            id: 1,
             title: '',
             image: '',
-            price: 2345,
-            rating: 3,
+            price: 12345,
+            rating: 1,
         }
     ]
 };
