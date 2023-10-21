@@ -9,7 +9,7 @@ export default function ManProducts() {
 
         {/* Product with title, price, rating, image */}
         <div className='home__row'>
-            <Product id='ARQUIVOS SLIDE' title='ARQUIVOS SLIDE MEN BLACK EMBOSSED SLIDE.' price={169.95} rating={4} image='https://thefoschini.vtexassets.com/arquivos/ids/89401698-800-800?v=638326375821970000&width=800&height=800&aspect=true' />
+            <Product id='ARQUIVOS SLIDE' title='ARQUIVOS SLIDE MEN BLACK EMBOSSED SANDALS.' price={169.95} rating={4} image='https://thefoschini.vtexassets.com/arquivos/ids/89401698-800-800?v=638326375821970000&width=800&height=800&aspect=true' />
 
             <Product id='STEVE MADDEN BLACK SNEAKERS' title='STEVE MADDEN BLACK STYLED SNEAKERS' price={1200.95} rating={5} image='https://stevemadden.co.za/cdn/shop/products/STEVEMADDEN-SHOES_POSSESSION_BLACK-1_grande.jpg?v=1683808967' />
 
@@ -21,16 +21,15 @@ export default function ManProducts() {
         <div className='home__row'>
         <Product id='NUDE SNEAKERS' title='NUDE MEN KNITTED PU SNEAKER' price={399.99} rating={3} image='https://cdn.shopify.com/s/files/1/0384/6379/9429/files/MensOCT-58_360x.jpg?v=1696862648' />
 
-        <Product id='GRANDE SANDALS' title='GRANDE MEN TOEPOST PU WEDGE SOLE' price={239.95} rating={2} image='https://cdn.shopify.com/s/files/1/0384/6379/9429/files/MensOCT-14_360x.jpg?v=1696411375' />
+        <Product id='GRANDE SANDALS' title='GRANDE MEN TOEPOST PU WEDGE SOLE SANDALS' price={239.95} rating={2} image='https://cdn.shopify.com/s/files/1/0384/6379/9429/files/MensOCT-14_360x.jpg?v=1696411375' />
 
-        <Product id='STONE SANDALS' title='STONE MEN EVA NEW BEACH THONG' price={164.95} rating={4} image='https://cdn.shopify.com/s/files/1/0384/6379/9429/files/MensSep-2_360x.jpg?v=1692867041' />
+        <Product id='STONE SANDALS' title='STONE MEN SANDALS EVA NEW BEACH THONG' price={164.95} rating={4} image='https://cdn.shopify.com/s/files/1/0384/6379/9429/files/MensSep-2_360x.jpg?v=1692867041' />
 
-        <Product id='HINE FORMAL' title='HINE MEN LACE UP DERBY FORMAL SHOE' price={599.99} rating={3} image='https://cdn.shopify.com/s/files/1/0384/6379/9429/files/MensOCT-110_360x.jpg?v=1696497709' />
+        <Product id='HINE FORMAL' title='HINE MEN LACE UP DERBY FORMAL SHOES' price={599.99} rating={3} image='https://cdn.shopify.com/s/files/1/0384/6379/9429/files/MensOCT-110_360x.jpg?v=1696497709' />
         </div>
 
         <div className='home__row'>
-          <Product id='RIP SNEAKER' title='RIPP MEN GREY NEOPRENE/ PU COURT SNEAKER
-' price={379.95} rating={5} image='https://cdn.shopify.com/s/files/1/0384/6379/9429/files/MensSep-30_360x.jpg?v=1693481467' />
+          <Product id='RIP SNEAKER' title='RIPP MEN GREY NEOPRENE/ PU COURT SNEAKER' price={379.95} rating={5} image='https://cdn.shopify.com/s/files/1/0384/6379/9429/files/MensSep-30_360x.jpg?v=1693481467' />
 
           <Product id='AVENTER SANDALS' title='AVENTER MEN CUT OUT SLIDE' price={175.99} rating={3} image='https://cdn.shopify.com/s/files/1/0384/6379/9429/files/MensAUG-78_360x.jpg?v=1692862096' />
 
