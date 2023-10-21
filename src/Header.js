@@ -25,15 +25,17 @@ function Header({ onSearch }) { // Add onSearch prop
   }
 
   const handleSearchClick = () => {
-    const filteredProducts = data.productData.filter(product => {
-      const productName = product.title.toLowerCase();
-      return productName.includes(searchQuery.toLowerCase());
-    });
-    // Update the state
-    onSearch(filteredProducts); // Use the onSearch prop to update the state
-    // Navigate to Search page (if needed)
-    navigate(`/search?q=${searchQuery}`, { replace: true });
-  }
+    if (searchQuery.trim() !== '') {
+      const filteredProducts = data.productData.filter((product) => {
+        const productName = product.title.toLowerCase();
+        return productName.includes(searchQuery.toLowerCase());
+      });
+      onSearch(filteredProducts);
+      navigate(`/search?q=${searchQuery}`, { replace: true });
+    } else {
+      alert('Please enter a search query.'); // You can customize this message
+    }
+  };
 
   return (
     <nav className='header'>
