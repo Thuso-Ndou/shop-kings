@@ -29,8 +29,11 @@ function Payment() {
                 url: `/payments/create?total=${getCartTotal(cart) * 100}`
             });
             setClientSecret(response.data.clientSecret);
+
+            console.log(response.data.clientSecret);
         }
         getClientSecret();
+
       }, [cart]);
 
       const handleSubmit = async (event) => {

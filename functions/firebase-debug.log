@@ -1,54 +1,54 @@
-[debug] [2023-10-21T19:08:20.055Z] ----------------------------------------------------------------------
-[debug] [2023-10-21T19:08:20.080Z] Command:       /usr/bin/node /usr/bin/firebase emulators:start
-[debug] [2023-10-21T19:08:20.085Z] CLI Version:   12.7.0
-[debug] [2023-10-21T19:08:20.089Z] Platform:      linux
-[debug] [2023-10-21T19:08:20.091Z] Node Version:  v18.17.1
-[debug] [2023-10-21T19:08:20.322Z] Time:          Sat Oct 21 2023 21:08:20 GMT+0200 (South Africa Standard Time)
-[debug] [2023-10-21T19:08:20.322Z] ----------------------------------------------------------------------
+[debug] [2023-10-22T09:39:30.882Z] ----------------------------------------------------------------------
+[debug] [2023-10-22T09:39:30.889Z] Command:       /usr/bin/node /usr/bin/firebase emulators:start
+[debug] [2023-10-22T09:39:30.890Z] CLI Version:   12.7.0
+[debug] [2023-10-22T09:39:30.890Z] Platform:      linux
+[debug] [2023-10-22T09:39:30.891Z] Node Version:  v18.17.1
+[debug] [2023-10-22T09:39:30.943Z] Time:          Sun Oct 22 2023 11:39:30 GMT+0200 (South Africa Standard Time)
+[debug] [2023-10-22T09:39:30.945Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2023-10-21T19:08:21.118Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2023-10-21T19:08:21.120Z] > authorizing via signed-in user (milesvika21@gmail.com)
+[debug] [2023-10-22T09:39:31.225Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-22T09:39:31.226Z] > authorizing via signed-in user (milesvika21@gmail.com)
 [info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
-[debug] [2023-10-21T19:08:21.161Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2023-10-21T19:08:21.161Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2023-10-21T19:08:21.162Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
-[debug] [2023-10-21T19:08:21.328Z] [hub] writing locator at /tmp/hub-shop-kings.json
-[debug] [2023-10-21T19:08:21.357Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2023-10-21T19:08:21.357Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2023-10-21T19:08:21.358Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[debug] [2023-10-22T09:39:31.237Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-10-22T09:39:31.237Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-10-22T09:39:31.238Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-10-22T09:39:31.295Z] [hub] writing locator at /tmp/hub-shop-kings.json
+[debug] [2023-10-22T09:39:31.323Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-10-22T09:39:31.324Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-10-22T09:39:31.324Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
 [warn] ⚠  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
-[debug] [2023-10-21T19:08:21.582Z] defaultcredentials: writing to file /home/thuso/.config/firebase/milesvika21_gmail_com_application_default_credentials.json
-[debug] [2023-10-21T19:08:21.606Z] Setting GAC to /home/thuso/.config/firebase/milesvika21_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /home/thuso/.config/firebase/milesvika21_gmail_com_application_default_credentials.json"}}
-[debug] [2023-10-21T19:08:21.618Z] > refreshing access token with scopes: []
-[debug] [2023-10-21T19:08:21.643Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
-[debug] [2023-10-21T19:08:21.645Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
-[debug] [2023-10-21T19:08:22.674Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
-[debug] [2023-10-21T19:08:22.675Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
-[debug] [2023-10-21T19:08:23.193Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/shop-kings/adminSdkConfig [none]
-[debug] [2023-10-21T19:08:24.322Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/shop-kings/adminSdkConfig 200
-[debug] [2023-10-21T19:08:24.322Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/shop-kings/adminSdkConfig {"projectId":"shop-kings","storageBucket":"shop-kings.appspot.com"}
-[debug] [2023-10-21T19:08:24.680Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/shop-kings/sites 
-[debug] [2023-10-21T19:08:27.148Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/shop-kings/sites 200
-[debug] [2023-10-21T19:08:27.150Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/shop-kings/sites {"sites":[{"name":"projects/shop-kings/sites/shop-kings","defaultUrl":"https://shop-kings.web.app","appId":"1:491549116989:web:2f1513a2ae2ff701f8f854","type":"DEFAULT_SITE"}]}
-[debug] [2023-10-21T19:08:27.153Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/shop-kings/webApps/1:491549116989:web:2f1513a2ae2ff701f8f854/config [none]
-[debug] [2023-10-21T19:08:29.990Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/shop-kings/webApps/1:491549116989:web:2f1513a2ae2ff701f8f854/config 200
-[debug] [2023-10-21T19:08:29.991Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/shop-kings/webApps/1:491549116989:web:2f1513a2ae2ff701f8f854/config {"projectId":"shop-kings","appId":"1:491549116989:web:2f1513a2ae2ff701f8f854","storageBucket":"shop-kings.appspot.com","apiKey":"AIzaSyDQBzBzkH6jnD5IGfjLUK9bbFJXXAliVWI","authDomain":"shop-kings.firebaseapp.com","messagingSenderId":"491549116989","measurementId":"G-3KGW9YJN3C"}
-[debug] [2023-10-21T19:08:30.376Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/shop-kings [none]
-[debug] [2023-10-21T19:08:31.013Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/shop-kings 200
-[debug] [2023-10-21T19:08:31.014Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/shop-kings {"projectId":"shop-kings","projectNumber":"491549116989","displayName":"shop-kings","name":"projects/shop-kings","resources":{"hostingSite":"shop-kings"},"state":"ACTIVE","etag":"1_332231c1-bf6d-4e13-86c0-3693a6b4d6a3"}
+[debug] [2023-10-22T09:39:31.347Z] defaultcredentials: writing to file /home/thuso/.config/firebase/milesvika21_gmail_com_application_default_credentials.json
+[debug] [2023-10-22T09:39:31.370Z] Setting GAC to /home/thuso/.config/firebase/milesvika21_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /home/thuso/.config/firebase/milesvika21_gmail_com_application_default_credentials.json"}}
+[debug] [2023-10-22T09:39:31.375Z] > refreshing access token with scopes: []
+[debug] [2023-10-22T09:39:31.380Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-10-22T09:39:31.381Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-10-22T09:39:31.994Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-10-22T09:39:31.995Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-10-22T09:39:32.123Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/shop-kings/adminSdkConfig [none]
+[debug] [2023-10-22T09:39:33.053Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/shop-kings/adminSdkConfig 200
+[debug] [2023-10-22T09:39:33.055Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/shop-kings/adminSdkConfig {"projectId":"shop-kings","storageBucket":"shop-kings.appspot.com"}
+[debug] [2023-10-22T09:39:33.150Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/shop-kings/sites 
+[debug] [2023-10-22T09:39:35.654Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/shop-kings/sites 200
+[debug] [2023-10-22T09:39:35.654Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/shop-kings/sites {"sites":[{"name":"projects/shop-kings/sites/shop-kings","defaultUrl":"https://shop-kings.web.app","appId":"1:491549116989:web:2f1513a2ae2ff701f8f854","type":"DEFAULT_SITE"}]}
+[debug] [2023-10-22T09:39:35.655Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/shop-kings/webApps/1:491549116989:web:2f1513a2ae2ff701f8f854/config [none]
+[debug] [2023-10-22T09:39:36.798Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/shop-kings/webApps/1:491549116989:web:2f1513a2ae2ff701f8f854/config 200
+[debug] [2023-10-22T09:39:36.799Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/shop-kings/webApps/1:491549116989:web:2f1513a2ae2ff701f8f854/config {"projectId":"shop-kings","appId":"1:491549116989:web:2f1513a2ae2ff701f8f854","storageBucket":"shop-kings.appspot.com","apiKey":"AIzaSyDQBzBzkH6jnD5IGfjLUK9bbFJXXAliVWI","authDomain":"shop-kings.firebaseapp.com","messagingSenderId":"491549116989","measurementId":"G-3KGW9YJN3C"}
+[debug] [2023-10-22T09:39:36.869Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/shop-kings [none]
+[debug] [2023-10-22T09:39:37.513Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/shop-kings 200
+[debug] [2023-10-22T09:39:37.513Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/shop-kings {"projectId":"shop-kings","projectNumber":"491549116989","displayName":"shop-kings","name":"projects/shop-kings","resources":{"hostingSite":"shop-kings"},"state":"ACTIVE","etag":"1_332231c1-bf6d-4e13-86c0-3693a6b4d6a3"}
 [info] i  hosting[shop-kings]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
 [info] ✔  hosting[shop-kings]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
-[debug] [2023-10-21T19:08:32.993Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
-[debug] [2023-10-21T19:08:32.995Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
-[debug] [2023-10-21T19:08:32.995Z] Starting Emulator UI with command {"binary":"node","args":["/home/thuso/.cache/firebase/emulators/ui-v1.11.7/server/server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/home/thuso/.cache/firebase/emulators/ui-v1.11.7/server/server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[debug] [2023-10-22T09:39:37.725Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-10-22T09:39:37.726Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-10-22T09:39:37.726Z] Starting Emulator UI with command {"binary":"node","args":["/home/thuso/.cache/firebase/emulators/ui-v1.11.7/server/server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/home/thuso/.cache/firebase/emulators/ui-v1.11.7/server/server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
 [info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
-[debug] [2023-10-21T19:08:33.446Z] Web / API server started at 127.0.0.1:4000
+[debug] [2023-10-22T09:39:37.953Z] Web / API server started at 127.0.0.1:4000
  {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
-[debug] [2023-10-21T19:08:33.446Z] Web / API server started at ::1:4000
+[debug] [2023-10-22T09:39:37.954Z] Web / API server started at ::1:4000
  {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
 [info] i  functions: Watching "/home/thuso/Documents/Crip/web_development/shop-kings/functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"/home/thuso/Documents/Crip/web_development/shop-kings/functions\" for Cloud Functions..."}}
-[debug] [2023-10-21T19:08:33.679Z] Validating nodejs source
-[debug] [2023-10-21T19:08:44.689Z] checkFunctionsSDKVersion was unable to fetch information from NPM Error: spawnSync npm ETIMEDOUT
+[debug] [2023-10-22T09:39:38.024Z] Validating nodejs source
+[debug] [2023-10-22T09:39:48.177Z] checkFunctionsSDKVersion was unable to fetch information from NPM Error: spawnSync npm ETIMEDOUT
     at Object.spawnSync (node:internal/child_process:1110:20)
     at Object.spawnSync (node:child_process:871:24)
     at Function.spawnSync [as sync] (/usr/lib/node_modules/firebase-tools/node_modules/cross-spawn/index.js:26:23)
@@ -59,7 +59,7 @@
     at async FunctionsEmulator.loadTriggers (/usr/lib/node_modules/firebase-tools/lib/emulator/functionsEmulator.js:325:34)
     at async FunctionsEmulator.connect (/usr/lib/node_modules/firebase-tools/lib/emulator/functionsEmulator.js:262:13)
     at async Object.startAll (/usr/lib/node_modules/firebase-tools/lib/emulator/controller.js:565:13)
-[debug] [2023-10-21T19:08:44.696Z] > [functions] package.json contents: {
+[debug] [2023-10-22T09:39:48.182Z] > [functions] package.json contents: {
   "name": "functions",
   "description": "Cloud Functions for Firebase",
   "scripts": {
@@ -88,12 +88,12 @@
   },
   "private": true
 }
-[debug] [2023-10-21T19:08:44.697Z] Building nodejs source
-[debug] [2023-10-21T19:08:44.704Z] Failed to find version of module node: reached end of search path /home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules
+[debug] [2023-10-22T09:39:48.183Z] Building nodejs source
+[debug] [2023-10-22T09:39:48.186Z] Failed to find version of module node: reached end of search path /home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules
 [info] ✔  functions: Using node@18 from host. 
-[debug] [2023-10-21T19:08:44.729Z] Could not find functions.yaml. Must use http discovery
-[debug] [2023-10-21T19:08:44.793Z] Found firebase-functions binary at '/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/.bin/firebase-functions'
-[info] Serving at port 8327
+[debug] [2023-10-22T09:39:48.209Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-10-22T09:39:48.282Z] Found firebase-functions binary at '/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8524
 
 [info] shutdown requested via /__/quitquitquit
 
@@ -116,3 +116,373 @@
 
 Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
  
+[debug] [2023-10-22T09:57:02.283Z] File /home/thuso/Documents/Crip/web_development/shop-kings/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/thuso/Documents/Crip/web_development/shop-kings/functions/index.js changed, reloading triggers"}}
+[debug] [2023-10-22T09:57:03.290Z] Validating nodejs source
+[debug] [2023-10-22T09:57:06.356Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-10-22T09:57:06.358Z] Building nodejs source
+[debug] [2023-10-22T09:57:06.360Z] Failed to find version of module node: reached end of search path /home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules
+[info] ✔  functions: Using node@18 from host. 
+[debug] [2023-10-22T09:57:06.366Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-10-22T09:57:06.369Z] Found firebase-functions binary at '/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8403
+
+[info] shutdown requested via /__/quitquitquit
+
+[error] ⬢  functions: Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification"}}
+[debug] [2023-10-22T10:05:00.017Z] File /home/thuso/Documents/Crip/web_development/shop-kings/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/thuso/Documents/Crip/web_development/shop-kings/functions/index.js changed, reloading triggers"}}
+[debug] [2023-10-22T10:05:01.025Z] Validating nodejs source
+[debug] [2023-10-22T10:05:11.165Z] checkFunctionsSDKVersion was unable to fetch information from NPM Error: spawnSync npm ETIMEDOUT
+    at Object.spawnSync (node:internal/child_process:1110:20)
+    at Object.spawnSync (node:child_process:871:24)
+    at Function.spawnSync [as sync] (/usr/lib/node_modules/firebase-tools/node_modules/cross-spawn/index.js:26:23)
+    at Object.getLatestSDKVersion (/usr/lib/node_modules/firebase-tools/lib/deploy/functions/runtimes/node/versioning.js:54:25)
+    at Object.checkFunctionsSDKVersion (/usr/lib/node_modules/firebase-tools/lib/deploy/functions/runtimes/node/versioning.js:74:32)
+    at Delegate.validate (/usr/lib/node_modules/firebase-tools/lib/deploy/functions/runtimes/node/index.js:84:20)
+    at FunctionsEmulator.discoverTriggers (/usr/lib/node_modules/firebase-tools/lib/emulator/functionsEmulator.js:296:35)
+    at async FunctionsEmulator.loadTriggers (/usr/lib/node_modules/firebase-tools/lib/emulator/functionsEmulator.js:325:34)
+[debug] [2023-10-22T10:05:11.174Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-10-22T10:05:11.175Z] Building nodejs source
+[debug] [2023-10-22T10:05:11.177Z] Failed to find version of module node: reached end of search path /home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules
+[info] ✔  functions: Using node@18 from host. 
+[debug] [2023-10-22T10:05:11.186Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-10-22T10:05:11.191Z] Found firebase-functions binary at '/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8924
+
+[debug] [2023-10-22T10:05:12.900Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[info] ✔  functions[us-central1-api]: http function initialized (http://127.0.0.1:5001/shop-kings/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/shop-kings/us-central1/api)."}}
+[debug] [2023-10-22T10:05:36.107Z] File /home/thuso/Documents/Crip/web_development/shop-kings/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/thuso/Documents/Crip/web_development/shop-kings/functions/index.js changed, reloading triggers"}}
+[debug] [2023-10-22T10:05:37.108Z] Validating nodejs source
+[debug] [2023-10-22T10:05:47.150Z] checkFunctionsSDKVersion was unable to fetch information from NPM Error: spawnSync npm ETIMEDOUT
+    at Object.spawnSync (node:internal/child_process:1110:20)
+    at Object.spawnSync (node:child_process:871:24)
+    at Function.spawnSync [as sync] (/usr/lib/node_modules/firebase-tools/node_modules/cross-spawn/index.js:26:23)
+    at Object.getLatestSDKVersion (/usr/lib/node_modules/firebase-tools/lib/deploy/functions/runtimes/node/versioning.js:54:25)
+    at Object.checkFunctionsSDKVersion (/usr/lib/node_modules/firebase-tools/lib/deploy/functions/runtimes/node/versioning.js:74:32)
+    at Delegate.validate (/usr/lib/node_modules/firebase-tools/lib/deploy/functions/runtimes/node/index.js:84:20)
+    at FunctionsEmulator.discoverTriggers (/usr/lib/node_modules/firebase-tools/lib/emulator/functionsEmulator.js:296:35)
+    at async FunctionsEmulator.loadTriggers (/usr/lib/node_modules/firebase-tools/lib/emulator/functionsEmulator.js:325:34)
+[debug] [2023-10-22T10:05:47.155Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-10-22T10:05:47.155Z] Building nodejs source
+[debug] [2023-10-22T10:05:47.156Z] Failed to find version of module node: reached end of search path /home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules
+[info] ✔  functions: Using node@18 from host. 
+[debug] [2023-10-22T10:05:47.160Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-10-22T10:05:47.163Z] Found firebase-functions binary at '/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8655
+
+[debug] [2023-10-22T10:05:47.682Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-10-22T10:08:35.330Z] File /home/thuso/Documents/Crip/web_development/shop-kings/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/thuso/Documents/Crip/web_development/shop-kings/functions/index.js changed, reloading triggers"}}
+[debug] [2023-10-22T10:08:36.332Z] Validating nodejs source
+[debug] [2023-10-22T10:08:40.140Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-10-22T10:08:40.141Z] Building nodejs source
+[debug] [2023-10-22T10:08:40.141Z] Failed to find version of module node: reached end of search path /home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules
+[info] ✔  functions: Using node@18 from host. 
+[debug] [2023-10-22T10:08:40.142Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-10-22T10:08:40.143Z] Found firebase-functions binary at '/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8830
+
+[debug] [2023-10-22T10:08:40.847Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-10-22T10:17:59.285Z] File /home/thuso/Documents/Crip/web_development/shop-kings/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /home/thuso/Documents/Crip/web_development/shop-kings/functions/index.js changed, reloading triggers"}}
+[debug] [2023-10-22T10:18:00.286Z] Validating nodejs source
+[debug] [2023-10-22T10:18:05.069Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-10-22T10:18:05.070Z] Building nodejs source
+[debug] [2023-10-22T10:18:05.070Z] Failed to find version of module node: reached end of search path /home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules
+[info] ✔  functions: Using node@18 from host. 
+[debug] [2023-10-22T10:18:05.075Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-10-22T10:18:05.077Z] Found firebase-functions binary at '/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8801
+
+[debug] [2023-10-22T10:18:05.886Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-10-22T10:25:23.229Z] [work-queue] {"queuedWork":["/shop-kings/us-central1/api/payments/create-2023-10-22T10:25:23.228Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-10-22T10:25:23.230Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/shop-kings/us-central1/api/payments/create-2023-10-22T10:25:23.228Z"],"workRunningCount":1}
+[debug] [2023-10-22T10:25:23.233Z] Accepted request POST /shop-kings/us-central1/api/payments/create?total=215084 --> us-central1-api
+[debug] [2023-10-22T10:25:23.378Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-10-22T10:25:23.380Z] [functions] Got req.url=/shop-kings/us-central1/api/payments/create?total=215084, mapping to path=/payments/create?total=215084 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/shop-kings/us-central1/api/payments/create?total=215084, mapping to path=/payments/create?total=215084"}}
+[debug] [2023-10-22T10:25:23.403Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2023-10-22T10:25:23.406Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[error] ⬢  functions: Failed to handle request for function us-central1-api {"metadata":{"emulator":{"name":"functions"},"message":"Failed to handle request for function us-central1-api"}}
+[error] ⬢  functions: Failed to start functions in /home/thuso/Documents/Crip/web_development/shop-kings/functions: FirebaseError: Failed to load function. {"metadata":{"emulator":{"name":"functions"},"message":"Failed to start functions in /home/thuso/Documents/Crip/web_development/shop-kings/functions: FirebaseError: Failed to load function."}}
+[debug] [2023-10-22T10:25:53.485Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-10-22T10:25:59.259Z] [runtime-status] [59002] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.0","resolution":"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59002] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.0\",\"resolution\":\"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2023-10-22T10:25:59.259Z] [runtime-status] [59002] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.4.1","resolution":"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59002] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2023-10-22T10:25:59.260Z] [runtime-status] [59002] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59002] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2023-10-22T10:25:59.262Z] [runtime-status] [59002] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.4.1","resolution":"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59002] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2023-10-22T10:25:59.489Z] [runtime-status] [59002] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59002] Checked functions.config() {\"config\":{}}"}}
+[debug] [2023-10-22T10:25:59.490Z] [runtime-status] [59002] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.4.1","resolution":"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-functions/lib/v1/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59002] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-functions/lib/v1/index.js\"}}"}}
+[debug] [2023-10-22T10:25:59.491Z] [runtime-status] [59002] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.4.1","resolution":"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59002] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2023-10-22T10:25:59.493Z] [runtime-status] [59002] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.0","resolution":"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59002] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.0\",\"resolution\":\"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2023-10-22T10:25:59.566Z] [runtime-status] [59002] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.4.1","resolution":"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59002] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2023-10-22T10:25:59.568Z] [runtime-status] [59002] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"11.11.0","resolution":"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59002] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"11.11.0\",\"resolution\":\"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2023-10-22T10:26:00.028Z] [runtime-status] [59002] Functions runtime initialized. {"cwd":"/home/thuso/Documents/Crip/web_development/shop-kings/functions","node_version":"18.17.1"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59002] Functions runtime initialized. {\"cwd\":\"/home/thuso/Documents/Crip/web_development/shop-kings/functions\",\"node_version\":\"18.17.1\"}"}}
+[debug] [2023-10-22T10:26:00.030Z] [runtime-status] [59002] Listening to port: /tmp/fire_emu_2a188b0fe8adc02f.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59002] Listening to port: /tmp/fire_emu_2a188b0fe8adc02f.sock"}}
+[debug] [2023-10-22T10:26:39.091Z] [work-queue] {"queuedWork":["/shop-kings/us-central1/api/payments/create-2023-10-22T10:26:39.091Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-10-22T10:26:39.093Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/shop-kings/us-central1/api/payments/create-2023-10-22T10:26:39.091Z"],"workRunningCount":1}
+[debug] [2023-10-22T10:26:39.093Z] Accepted request POST /shop-kings/us-central1/api/payments/create?total=232079 --> us-central1-api
+[debug] [2023-10-22T10:26:39.109Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-10-22T10:26:39.111Z] [functions] Got req.url=/shop-kings/us-central1/api/payments/create?total=232079, mapping to path=/payments/create?total=232079 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/shop-kings/us-central1/api/payments/create?total=232079, mapping to path=/payments/create?total=232079"}}
+[debug] [2023-10-22T10:26:39.132Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2023-10-22T10:26:39.134Z] [worker-pool] Adding worker with key us-central1-api, total=2 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=2"}}
+[debug] [2023-10-22T10:26:39.142Z] [work-queue] {"queuedWork":["/shop-kings/us-central1/api/payments/create-2023-10-22T10:26:39.142Z"],"queueLength":1,"runningWork":["/shop-kings/us-central1/api/payments/create-2023-10-22T10:26:39.091Z"],"workRunningCount":1}
+[debug] [2023-10-22T10:26:39.143Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/shop-kings/us-central1/api/payments/create-2023-10-22T10:26:39.091Z","/shop-kings/us-central1/api/payments/create-2023-10-22T10:26:39.142Z"],"workRunningCount":2}
+[debug] [2023-10-22T10:26:39.143Z] Accepted request POST /shop-kings/us-central1/api/payments/create?total=232079 --> us-central1-api
+[debug] [2023-10-22T10:26:39.147Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-10-22T10:26:39.147Z] [functions] Got req.url=/shop-kings/us-central1/api/payments/create?total=232079, mapping to path=/payments/create?total=232079 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/shop-kings/us-central1/api/payments/create?total=232079, mapping to path=/payments/create?total=232079"}}
+[debug] [2023-10-22T10:26:39.157Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2023-10-22T10:26:39.157Z] [worker-pool] Adding worker with key us-central1-api, total=3 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=3"}}
+[debug] [2023-10-22T10:26:40.205Z] [runtime-status] [59049] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.0","resolution":"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59049] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.0\",\"resolution\":\"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2023-10-22T10:26:40.209Z] [runtime-status] [59049] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.4.1","resolution":"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59049] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2023-10-22T10:26:40.210Z] [runtime-status] [59049] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59049] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2023-10-22T10:26:40.213Z] [runtime-status] [59049] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.4.1","resolution":"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59049] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2023-10-22T10:26:40.244Z] [runtime-status] [59050] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.0","resolution":"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59050] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.0\",\"resolution\":\"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2023-10-22T10:26:40.247Z] [runtime-status] [59050] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.4.1","resolution":"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59050] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2023-10-22T10:26:40.249Z] [runtime-status] [59050] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59050] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2023-10-22T10:26:40.250Z] [runtime-status] [59050] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.4.1","resolution":"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59050] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2023-10-22T10:26:40.416Z] [runtime-status] [59049] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59049] Checked functions.config() {\"config\":{}}"}}
+[debug] [2023-10-22T10:26:40.416Z] [runtime-status] [59049] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.4.1","resolution":"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-functions/lib/v1/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59049] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-functions/lib/v1/index.js\"}}"}}
+[debug] [2023-10-22T10:26:40.418Z] [runtime-status] [59049] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.4.1","resolution":"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59049] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2023-10-22T10:26:40.419Z] [runtime-status] [59049] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.0","resolution":"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59049] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.0\",\"resolution\":\"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2023-10-22T10:26:40.423Z] [runtime-status] [59049] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.4.1","resolution":"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59049] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2023-10-22T10:26:40.424Z] [runtime-status] [59049] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"11.11.0","resolution":"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59049] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"11.11.0\",\"resolution\":\"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2023-10-22T10:26:40.456Z] [runtime-status] [59050] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59050] Checked functions.config() {\"config\":{}}"}}
+[debug] [2023-10-22T10:26:40.456Z] [runtime-status] [59050] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.4.1","resolution":"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-functions/lib/v1/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59050] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-functions/lib/v1/index.js\"}}"}}
+[debug] [2023-10-22T10:26:40.458Z] [runtime-status] [59050] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.4.1","resolution":"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59050] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2023-10-22T10:26:40.459Z] [runtime-status] [59050] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.0","resolution":"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59050] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.0\",\"resolution\":\"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2023-10-22T10:26:40.462Z] [runtime-status] [59050] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.4.1","resolution":"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59050] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2023-10-22T10:26:40.462Z] [runtime-status] [59050] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"11.11.0","resolution":"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59050] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"11.11.0\",\"resolution\":\"/home/thuso/Documents/Crip/web_development/shop-kings/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2023-10-22T10:26:40.570Z] [runtime-status] [59049] Functions runtime initialized. {"cwd":"/home/thuso/Documents/Crip/web_development/shop-kings/functions","node_version":"18.17.1"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59049] Functions runtime initialized. {\"cwd\":\"/home/thuso/Documents/Crip/web_development/shop-kings/functions\",\"node_version\":\"18.17.1\"}"}}
+[debug] [2023-10-22T10:26:40.571Z] [runtime-status] [59049] Listening to port: /tmp/fire_emu_47b773831e660ef4.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59049] Listening to port: /tmp/fire_emu_47b773831e660ef4.sock"}}
+[debug] [2023-10-22T10:26:40.598Z] [runtime-status] [59050] Functions runtime initialized. {"cwd":"/home/thuso/Documents/Crip/web_development/shop-kings/functions","node_version":"18.17.1"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59050] Functions runtime initialized. {\"cwd\":\"/home/thuso/Documents/Crip/web_development/shop-kings/functions\",\"node_version\":\"18.17.1\"}"}}
+[debug] [2023-10-22T10:26:40.598Z] [runtime-status] [59050] Listening to port: /tmp/fire_emu_0f36165bd1f8d9ce.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [59050] Listening to port: /tmp/fire_emu_0f36165bd1f8d9ce.sock"}}
+[debug] [2023-10-22T10:26:40.644Z] [worker-us-central1-api-2a20f609-cbdd-4dcd-8d4e-586e1b731dcc]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2a20f609-cbdd-4dcd-8d4e-586e1b731dcc]: IDLE"}}
+[debug] [2023-10-22T10:26:40.645Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-10-22T10:26:40.649Z] [worker-us-central1-api-2a20f609-cbdd-4dcd-8d4e-586e1b731dcc]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2a20f609-cbdd-4dcd-8d4e-586e1b731dcc]: BUSY"}}
+[info] >  Payment Request Recieved for this amount >>>  232079 {"user":"Payment Request Recieved for this amount >>>  232079","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved for this amount >>>  232079"}}
+[debug] [2023-10-22T10:26:40.699Z] [worker-us-central1-api-5d9899f3-54cd-49db-8d65-6a719ad99055]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5d9899f3-54cd-49db-8d65-6a719ad99055]: IDLE"}}
+[debug] [2023-10-22T10:26:40.700Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-10-22T10:26:40.701Z] [worker-us-central1-api-5d9899f3-54cd-49db-8d65-6a719ad99055]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5d9899f3-54cd-49db-8d65-6a719ad99055]: BUSY"}}
+[info] >  Payment Request Recieved for this amount >>>  232079 {"user":"Payment Request Recieved for this amount >>>  232079","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved for this amount >>>  232079"}}
+[debug] [2023-10-22T10:26:43.010Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 2309.558521ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 2309.558521ms"}}
+[debug] [2023-10-22T10:26:43.011Z] [worker-us-central1-api-5d9899f3-54cd-49db-8d65-6a719ad99055]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5d9899f3-54cd-49db-8d65-6a719ad99055]: IDLE"}}
+[debug] [2023-10-22T10:26:43.011Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2023-10-22T10:26:43.012Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2023-10-22T10:26:43.012Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/shop-kings/us-central1/api/payments/create-2023-10-22T10:26:39.142Z"],"workRunningCount":1}
+[debug] [2023-10-22T10:26:43.034Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 2385.9918470000002ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 2385.9918470000002ms"}}
+[debug] [2023-10-22T10:26:43.035Z] [worker-us-central1-api-2a20f609-cbdd-4dcd-8d4e-586e1b731dcc]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2a20f609-cbdd-4dcd-8d4e-586e1b731dcc]: IDLE"}}
+[debug] [2023-10-22T10:26:43.036Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2023-10-22T10:26:43.036Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2023-10-22T10:26:43.036Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-10-22T10:28:43.188Z] [work-queue] {"queuedWork":["/shop-kings/us-central1/api/payments/create-2023-10-22T10:28:43.188Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-10-22T10:28:43.191Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/shop-kings/us-central1/api/payments/create-2023-10-22T10:28:43.188Z"],"workRunningCount":1}
+[debug] [2023-10-22T10:28:43.192Z] Accepted request POST /shop-kings/us-central1/api/payments/create?total=55953 --> us-central1-api
+[debug] [2023-10-22T10:28:43.210Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-10-22T10:28:43.211Z] [functions] Got req.url=/shop-kings/us-central1/api/payments/create?total=55953, mapping to path=/payments/create?total=55953 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/shop-kings/us-central1/api/payments/create?total=55953, mapping to path=/payments/create?total=55953"}}
+[debug] [2023-10-22T10:28:43.212Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-10-22T10:28:43.214Z] [worker-us-central1-api-5d9899f3-54cd-49db-8d65-6a719ad99055]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5d9899f3-54cd-49db-8d65-6a719ad99055]: BUSY"}}
+[debug] [2023-10-22T10:28:43.226Z] [work-queue] {"queuedWork":["/shop-kings/us-central1/api/payments/create-2023-10-22T10:28:43.226Z"],"queueLength":1,"runningWork":["/shop-kings/us-central1/api/payments/create-2023-10-22T10:28:43.188Z"],"workRunningCount":1}
+[debug] [2023-10-22T10:28:43.228Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/shop-kings/us-central1/api/payments/create-2023-10-22T10:28:43.188Z","/shop-kings/us-central1/api/payments/create-2023-10-22T10:28:43.226Z"],"workRunningCount":2}
+[debug] [2023-10-22T10:28:43.229Z] Accepted request POST /shop-kings/us-central1/api/payments/create?total=55953 --> us-central1-api
+[debug] [2023-10-22T10:28:43.243Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-10-22T10:28:43.244Z] [functions] Got req.url=/shop-kings/us-central1/api/payments/create?total=55953, mapping to path=/payments/create?total=55953 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/shop-kings/us-central1/api/payments/create?total=55953, mapping to path=/payments/create?total=55953"}}
+[debug] [2023-10-22T10:28:43.245Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-10-22T10:28:43.247Z] [worker-us-central1-api-2a20f609-cbdd-4dcd-8d4e-586e1b731dcc]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2a20f609-cbdd-4dcd-8d4e-586e1b731dcc]: BUSY"}}
+[info] >  Payment Request Recieved for this amount >>>  55953 {"user":"Payment Request Recieved for this amount >>>  55953","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved for this amount >>>  55953"}}
+[info] >  Payment Request Recieved for this amount >>>  55953 {"user":"Payment Request Recieved for this amount >>>  55953","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved for this amount >>>  55953"}}
+[debug] [2023-10-22T10:28:44.935Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 1722.044189ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 1722.044189ms"}}
+[debug] [2023-10-22T10:28:44.940Z] [worker-us-central1-api-5d9899f3-54cd-49db-8d65-6a719ad99055]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5d9899f3-54cd-49db-8d65-6a719ad99055]: IDLE"}}
+[debug] [2023-10-22T10:28:44.941Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2023-10-22T10:28:44.942Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2023-10-22T10:28:44.943Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/shop-kings/us-central1/api/payments/create-2023-10-22T10:28:43.226Z"],"workRunningCount":1}
+[debug] [2023-10-22T10:28:44.948Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 1702.0560540000001ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 1702.0560540000001ms"}}
+[debug] [2023-10-22T10:28:44.950Z] [worker-us-central1-api-2a20f609-cbdd-4dcd-8d4e-586e1b731dcc]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2a20f609-cbdd-4dcd-8d4e-586e1b731dcc]: IDLE"}}
+[debug] [2023-10-22T10:28:44.951Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2023-10-22T10:28:44.952Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2023-10-22T10:28:44.953Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-10-22T10:32:25.024Z] [work-queue] {"queuedWork":["/shop-kings/us-central1/api/payments/create-2023-10-22T10:32:25.024Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-10-22T10:32:25.026Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/shop-kings/us-central1/api/payments/create-2023-10-22T10:32:25.024Z"],"workRunningCount":1}
+[debug] [2023-10-22T10:32:25.027Z] Accepted request POST /shop-kings/us-central1/api/payments/create?total=150094 --> us-central1-api
+[debug] [2023-10-22T10:32:25.042Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-10-22T10:32:25.043Z] [functions] Got req.url=/shop-kings/us-central1/api/payments/create?total=150094, mapping to path=/payments/create?total=150094 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/shop-kings/us-central1/api/payments/create?total=150094, mapping to path=/payments/create?total=150094"}}
+[debug] [2023-10-22T10:32:25.044Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-10-22T10:32:25.046Z] [worker-us-central1-api-5d9899f3-54cd-49db-8d65-6a719ad99055]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5d9899f3-54cd-49db-8d65-6a719ad99055]: BUSY"}}
+[debug] [2023-10-22T10:32:25.057Z] [work-queue] {"queuedWork":["/shop-kings/us-central1/api/payments/create-2023-10-22T10:32:25.057Z"],"queueLength":1,"runningWork":["/shop-kings/us-central1/api/payments/create-2023-10-22T10:32:25.024Z"],"workRunningCount":1}
+[debug] [2023-10-22T10:32:25.058Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/shop-kings/us-central1/api/payments/create-2023-10-22T10:32:25.024Z","/shop-kings/us-central1/api/payments/create-2023-10-22T10:32:25.057Z"],"workRunningCount":2}
+[debug] [2023-10-22T10:32:25.059Z] Accepted request POST /shop-kings/us-central1/api/payments/create?total=150094 --> us-central1-api
+[debug] [2023-10-22T10:32:25.071Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-10-22T10:32:25.072Z] [functions] Got req.url=/shop-kings/us-central1/api/payments/create?total=150094, mapping to path=/payments/create?total=150094 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/shop-kings/us-central1/api/payments/create?total=150094, mapping to path=/payments/create?total=150094"}}
+[debug] [2023-10-22T10:32:25.073Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-10-22T10:32:25.074Z] [worker-us-central1-api-2a20f609-cbdd-4dcd-8d4e-586e1b731dcc]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2a20f609-cbdd-4dcd-8d4e-586e1b731dcc]: BUSY"}}
+[info] >  Payment Request Recieved for this amount >>>  150094 {"user":"Payment Request Recieved for this amount >>>  150094","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved for this amount >>>  150094"}}
+[info] >  Payment Request Recieved for this amount >>>  150094 {"user":"Payment Request Recieved for this amount >>>  150094","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved for this amount >>>  150094"}}
+[debug] [2023-10-22T10:32:26.760Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 1715.451438ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 1715.451438ms"}}
+[debug] [2023-10-22T10:32:26.763Z] [worker-us-central1-api-5d9899f3-54cd-49db-8d65-6a719ad99055]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5d9899f3-54cd-49db-8d65-6a719ad99055]: IDLE"}}
+[debug] [2023-10-22T10:32:26.765Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2023-10-22T10:32:26.765Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2023-10-22T10:32:26.766Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/shop-kings/us-central1/api/payments/create-2023-10-22T10:32:25.057Z"],"workRunningCount":1}
+[debug] [2023-10-22T10:32:26.813Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 1740.375319ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 1740.375319ms"}}
+[debug] [2023-10-22T10:32:26.815Z] [worker-us-central1-api-2a20f609-cbdd-4dcd-8d4e-586e1b731dcc]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2a20f609-cbdd-4dcd-8d4e-586e1b731dcc]: IDLE"}}
+[debug] [2023-10-22T10:32:26.815Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2023-10-22T10:32:26.816Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2023-10-22T10:32:26.816Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
