@@ -2,7 +2,8 @@ const functions = require("firebase-functions");
 const express = require("express");
 const cors = require("cors");
 const stripe = require("stripe")(
-  "sk_test_51O2imWKagkfSGuynX5nozrYMqcWoktCaS7SBUrPUuwhLfvQosWxzKyu6tzoELXvkV0GwOuIG8kbJ5MTZ9XgcnHB200nIAFimwC"
+    // eslint-disable-next-line max-len
+    "sk_test_51O2imWKagkfSGuynX5nozrYMqcWoktCaS7SBUrPUuwhLfvQosWxzKyu6tzoELXvkV0GwOuIG8kbJ5MTZ9XgcnHB200nIAFimwC",
 );
 
 // - App config
