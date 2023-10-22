@@ -1,0 +1,32 @@
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+
+  .contactDetails {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .contactDetails p {
+    margin-bottom: 10px;
+  }
+
+  .footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+  }
+  
