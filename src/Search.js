@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import Product from './Product';
 import { useLocation } from 'react-router-dom';
+import './Search.css';
 
 function Search({ filteredProducts, setFilteredProducts }) {
   const location = useLocation();
@@ -15,7 +16,7 @@ function Search({ filteredProducts, setFilteredProducts }) {
   return (
     <div>
       <h1>Search Results for: {searchQuery}</h1>
-      <div className="home__row">
+      <div className="searchHome__row">
         {filteredProducts.map(product => (
           <Product
             key={product.id}
