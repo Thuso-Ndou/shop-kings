@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "shop-kings"
-  }
+    "default": "shop-kings",
+    "staging": "shopkings-store"
+  },
+  "targets": {},
+  "etags": {}
 }
