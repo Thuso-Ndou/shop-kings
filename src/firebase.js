@@ -4,14 +4,14 @@ import { getFirestore, doc, setDoc, collection, query, orderBy, onSnapshot } fro
 import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDQBzBzkH6jnD5IGfjLUK9bbFJXXAliVWI",
-    authDomain: "shop-kings.firebaseapp.com",
-    projectId: "shop-kings",
-    storageBucket: "shop-kings.appspot.com",
-    messagingSenderId: "491549116989",
-    appId: "1:491549116989:web:2f1513a2ae2ff701f8f854",
-    measurementId: "G-3KGW9YJN3C"
-  };
+  apiKey: "AIzaSyCYl3UqH65PjTFAXGiyIsSniOwBysiBp_A",
+  authDomain: "shopkings-store.firebaseapp.com",
+  projectId: "shopkings-store",
+  storageBucket: "shopkings-store.appspot.com",
+  messagingSenderId: "475482846330",
+  appId: "1:475482846330:web:026165b37b1428239737c3",
+  measurementId: "G-D9EJN9D4XL"
+};
 
 // initialize firebase app
 const app = initializeApp(firebaseConfig);
