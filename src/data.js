@@ -476,96 +476,238 @@ const data = {
             rating:5,
             image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3375687/original.jpg'  
         },
-        {   
+        { 
+            id: 'Haven Wide', 
+            title: 'Haven Wide Leg Pant',
+            price: 599,
+            rating: 5,
+            image: 'https://cottonon.com/dw/image/v2/BBDS_PRD/on/demandware.static/-/Sites-catalog-master-women/default/dw54d6b531/2056694/2056694-01-1.jpg?sw=800&sh=1200&sm=fit'
         },
-        {   
+        { 
+            id: 'Bobbie Cargo',
+            title: 'Bobbie Cargo Pant',
+            price: 699,
+            rating: 5,
+            image: 'https://cottonon.com/dw/image/v2/BBDS_PRD/on/demandware.static/-/Sites-catalog-master-women/default/dw3f645089/2054319/2054319-03-2.jpg?sw=640&sh=960&sm=fit'  
         },
-        {   
+        {                  
+            id: 'Curvy Stretch',
+            title: 'Curvy Stretch Straight Jean',
+            price: 680,
+            rating: 5,
+            image: 'https://cottonon.com/dw/image/v2/BBDS_PRD/on/demandware.static/-/Sites-catalog-master-women/default/dw2534ece8/2056530/2056530-02-2.jpg?sw=640&sh=960&sm=fit'
         },
-        {   
+        {             
+            id: 'Loose Straight',
+            title: 'Loose Straight Jean',
+            price: 478,
+            rating: 5,
+            image: 'https://cottonon.com/dw/image/v2/BBDS_PRD/on/demandware.static/-/Sites-catalog-master-women/default/dw7e4800a5/2053335/2053335-66-2.jpg?sw=640&sh=960&sm=fit' 
         },
-        {   
+        {             
+            id: 'Bella Bootleg',
+            title: 'Bella Bootleg Pant',
+            price: 350, 
+            rating: 5,
+            image: 'https://cottonon.com/dw/image/v2/BBDS_PRD/on/demandware.static/-/Sites-catalog-master-women/default/dwf1520a81/2056807/2056807-01-2.jpg?sw=640&sh=960&sm=fit'   
         },
-        {   
+        {                   
+            id: 'Utility Denim',
+            title: 'Utility Denim Long Overall',
+            price: 986,
+            rating: 5,
+            image: 'https://cottonon.com/dw/image/v2/BBDS_PRD/on/demandware.static/-/Sites-catalog-master-women/default/dwb4711076/2054906/2054906-08-2.jpg?sw=640&sh=960&sm=fit'  
         },
-        {   
+        {            
+            id: 'Plush Essential',
+            title: 'Plush Essential Gym Trackpant',
+            price: 314,
+            rating: 5,
+            image: 'https://cottonon.com/dw/image/v2/BBDS_PRD/on/demandware.static/-/Sites-catalog-master-body/default/dw8e95be11/6335821/6335821-15-2.jpg?sw=640&sh=960&sm=fit' 
         },
-        {   
+        {             
+            id: 'High Waisted Dylan',
+            title: 'High Waisted Dylan Legging',
+            price: 174, 
+            rating: 5,
+            image: 'https://cottonon.com/dw/image/v2/BBDS_PRD/on/demandware.static/-/Sites-catalog-master-women/default/dw9b728c5f/2007848/2007848-02-2.jpg?sw=640&sh=960&sm=fit'    
         },
-        {   
+        {             
+            id: 'Cargo trousers', 
+            title: 'Cargo trousers - black',
+            price: 373,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3414130/original.jpg'  
         },
-        {   
+        {             
+            id: 'Trousers bo',
+            title: 'Trousers bo - light beige',
+            price: 1199,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3376150/original.jpg'  
         },
-        {   
+        {            
+            id: 'Feather print trousers',
+            title: 'Feather print trousers - black',
+            price: 249,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3414016/original.jpg'   
         },
-        {   
+        {            
+            id: 'Print trousers',
+            title: 'Print trousers - black',
+            price: 263,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3414041/original.jpg'   
         },
-        {   
+        {            
+            id: 'Slim leg trousers',
+            title: 'Slim leg trousers - khaki',
+            price: 699,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3414114/original.jpg'  
         },
-        {   
+        {            
+            id: 'Linen-blend pull-on trousers', 
+            title: 'Linen-blend pull-on trousers - cream leaf-patterned',
+            price: 349,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3410259/original.jpg'    
         },
-        {   
+        {             
+            id: 'STELLA MORGAN',
+            title: 'Open side harem pants with front detail - black',
+            price: 499,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3412824/original.jpg'  
         },
-        {   
+        {            
+            id: 'Trousers loren', 
+            title: 'Trousers loren - mid green',
+            price: 568,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3378663/original.jpg'   
         },
-        {   
+        {                 
+            id: 'Wide trousers',
+            title: 'Wide trousers - light blue',
+            price: 279,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3408962/original.jpg' 
         },
-        {   
+        {             
+            id: 'Pull-on jersey trousers',
+            title: 'Pull-on jersey trousers - beige',
+            price: 249,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3408911/original.jpg'   
         },
-        {   
+        {             
+            id: 'Flared leg trousers',
+            title: 'Flared leg trousers - pink',
+            price: 249,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3405711/original.jpg'
         },
-        {   
+        {             
+            id: 'Trousers paloma', 
+            title: 'Trousers paloma - green',
+            price: 899,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3374783/original.jpg'   
         },
-        {   
+        {              
+            id: 'Oversized printed t-shirt',
+            title: 'Oversized printed t-shirt - blue',
+            price: 157,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3414641/original.jpg'  
         },
-        {   
+        {             
+            id:  'Cotton vest top', 
+            title: 'Cotton vest top - red',
+            price: 85,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3414626/original.jpg'  
         },
-        {   
+        {             
+            id:  'Cotton T-shirt',
+            title: 'Cotton T-shirt - purple',
+            price: 79,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3414474/original.jpg'  
         },
-        {   
+        {             
+            id:  'Linen-blend shirt',
+            title: 'Linen-blend shirt - green', 
+            price: 380,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3413753/original.jpg'  
         },
-        {   
+        {             
+            id:  'Cropped lace top',
+            title: 'Cropped lace top - light beige',
+            price: 215,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3414163/original.jpg'  
         },
-        {   
+        {             
+            id:  'V-neck blouse',
+            title: 'V-neck blouse - black',
+            price: 248,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3413544/original.jpg' 
         },
-        {   
+        {             
+            id:  '2-Pack cropped tube tops',
+            title: '2-Pack cropped tube tops - light pink & dark',
+            price: 150,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3414507/original.jpg'  
         },
-        {   
+        {             
+            id:  'Cropped strappy top',
+            title: 'Cropped strappy top - light pink',
+            price: 75,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3413608/original.jpg'  
         },
-        {   
+        {             
+            id:  'Willa waffle short sleeve henley', 
+            title: 'Willa waffle short sleeve henley - stripe alpine/forest/sage green',
+            price: 279,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3394497/original.jpg'   
         },
-        {   
+        { 
+            id:  'Fitted lcn graphic longline tee',
+            title: 'Fitted lcn graphic longline tee - vintage white',
+            price: 349,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3390721/original.jpg'  
         },
-        {   
+        {  
+            id:  'Nyc stripe hoodie',
+            title: 'Nyc stripe hoodie - white & navy',
+            price: 550,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3412924/original.jpg' 
         },
-        {   
+        {  
+            id:  'Graphic ringer rickie za headline logo stripe', 
+            title: 'Graphic ringer rickie za headline logo stripe - gardenia/racing red',
+            price: 330,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3402701/original.jpg' 
         },
-        {   
+        { 
+            id: 'Rib-knit top', 
+            title: 'Rib-knit top - dark grey', 
+            price: 235,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3410898/original.jpg'  
         },
-        {   
-        },
-        {   
-        },
-        {   
-        },
-        {   
-        },
-        {   
-        },
-        {   
-        },
-        {   
-        },
-        {   
-        },
-        {   
-        },
-        {   
-        },
-        {   
-        },
-        {   
-        }
+        
     ]
 };
 
