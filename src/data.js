@@ -330,11 +330,241 @@ const data = {
             image:'https://stevemadden.co.za/cdn/shop/files/STEVEMADDEN-MENS_SLATER_BLACK-MULTI_grande.jpg?v=1685364088'
         },
         {
-            id: 1,
-            title: '',
-            image: '',
-            price: 12345,
-            rating: 1,
+            id:  'Collared jersey dress',
+            title:  'Collared jersey dress - white',
+            price: 259,
+            rating: 4,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3408401/original.jpg'
+        },
+        {
+            id: 'dharma floral procelain dress',
+            title: 'Tori tie up mini dress - dharma floral procelain',
+            price: 599,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3407744/original.jpg'
+        },
+        {
+            id: 'Dress vuelo',
+            title: 'Dress vuelo - medium purple',
+            price: 350,
+            rating: 3.5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3378509/original.jpg'   
+        },
+        { 
+            id: 'Dress rosh',
+            title: 'Dress rosh - red',
+            price: 270,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3379250/original.jpg'
+        },
+        { 
+            id: 'Dress janice',
+            title: 'Dress janice - light/pastel brown',
+            price: 980,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3377954/original.jpg'  
+        },
+        {
+            id: 'Dress rufi',
+            title: 'Dress rufi - light pastel orange',
+            price: 756,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3378791/original.jpg' 
+        },
+        {
+            id: 'Dress linda-h',
+            title: 'Dress linda-h - dark blue',
+            price: 378,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3379404/original.jpg' 
+        },
+        {  
+            id: 'Satin mini slip dress with trim detail',
+            title: 'Satin mini slip dress with trim detail- dragon fire',
+            price: 1200,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3405857/original.jpg'          
+        },
+        { 
+            id: 'Dress flash',
+            title: 'Dress flash - natural',
+            price: 320,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3379362/original.jpg'              
+        },
+        {
+            id: 'Print sleeveless midi dress', 
+            title: 'Print sleeveless midi dress - off white',
+            price: 630,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3406570/original.jpg'
+        },
+        {
+            id: 'Print mandarin collar maxi dress',
+            title: 'Print mandarin collar maxi dress - pink diverse',
+            price: 600,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3405800/original.jpg'  
+        },
+        {
+            id: 'Belted sleeveless dress', 
+            title: 'Belted sleeveless dress - pink',
+            price: 819,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3405588/original.jpg'  
+        },
+        {     
+            id: 'Dress fiona', 
+            title: 'Dress fiona - mid green',
+            price: 899,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3379304/original.jpg' 
+        },
+        {        
+            id: 'Dress Loren',
+            title: 'Dress Loren - mid-pink',
+            price: 1500,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3378532/original.jpg'
+        },
+        {      
+            id: 'Mini trapeze dress',
+            title: 'Mini trapeze dress with tie detail - black',
+            price: 499,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3405889/original.jpg'    
+        },
+        {     
+            id: 'Pleated metallic halter maxi dress', 
+            title: 'Pleated metallic halter maxi dress - silver',
+            price: 745,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3405673/original.jpg'  
+        },
+        {  
+            id: 'halter neck ruched midi bodycon dress',
+            title: 'halter neck ruched midi bodycon dress - black',
+            price: 699,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3405922/original.jpg'    
+        },
+        {      
+            id: 'Tie-detail linen-blend dress',
+            title: 'Tie-detail linen-blend dress - black/patterned',
+            price: 529,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3398927/original.jpg'
+        },
+        {       
+            id: 'Cotton bodycon dress',
+            title: 'Cotton bodycon dress - red',
+            price: 199,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3398553/original.jpg'
+        },
+        {  
+            id: 'Dress mare',
+            title: 'Dress mare - black',
+            price: 921,
+            rating: 5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3374648/original.jpg'   
+        },
+        {   
+            id: 'Dress tina',
+            title: 'Dress tina - silver',
+            price: 473,
+            rating:5,
+            image: 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3375687/original.jpg'  
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
+        },
+        {   
         }
     ]
 };
