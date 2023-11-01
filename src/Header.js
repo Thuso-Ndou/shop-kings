@@ -27,7 +27,7 @@ function Header({ onSearch }) { // Add onSearch prop
   const handleSearchClick = () => {
     if (searchQuery.trim() !== '') {
       const filteredProducts = data.productData.filter((product) => {
-        const productName = product.title.toLowerCase();
+        const productName = (product.title || '').toLowerCase();
         return productName.includes(searchQuery.toLowerCase());
       });
       onSearch(filteredProducts);
