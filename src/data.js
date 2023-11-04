@@ -194,7 +194,7 @@ const data = {
             title:'ARQUIVOS SLIDE MEN BLACK EMBOSSED SANDALS.',
             price:169.95,
             rating:4,
-            image:'https://thefoschini.vtexassets.com/arquivos/ids/89401698-800-800?v=638326375821970000&width=800&height=800&aspect=true'
+            image:'https://www.shoecity.co.za/cdn/shop/products/MensFeb_23-29.jpg?v=1675764629'
         },
         {
             id:'STEVE MADDEN BLACK SNEAKERS',
