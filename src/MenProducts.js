@@ -60,6 +60,27 @@ export default function ManProducts() {
 
           <Product id='STEVE MADDEN SLATER SNEAKER' title='STEVE MADDEN MEN SLATER BLACK MULTI-GRANDE' price={1199.99} rating={5} image='https://stevemadden.co.za/cdn/shop/files/STEVEMADDEN-MENS_SLATER_BLACK-MULTI_grande.jpg?v=1685364088' />
         </div>
+
+        <h2 className='page__header'>Men's Pants</h2>
+        <div className='home__row'>
+        <Product id = 'LINEN' title = 'LINEN SHORTS' price = {230} rating = {3} image = 'https://cdn.shopify.com/s/files/1/0243/3004/3455/files/CopyofCopyofCapture-1251_360x.jpg?v=1697724952' />
+
+        <Product id = 'Mens Cargo' title = 'Mens Cargo Short' price = {289} rating = {5} image = 'https://www.picknpayclothing.co.za/media/catalog/product/cache/38bfb0e5b25353c4f7bc7d84e4c9d2c6/9/2/927883003_Cargo_Short_Camel_Front1.jpg' />
+
+        <Product id = 'Mens Adventure' title = 'Mens Adventure Short' price = {230} rating = {5} image = 'https://www.picknpayclothing.co.za/media/catalog/product/cache/38bfb0e5b25353c4f7bc7d84e4c9d2c6/9/2/927850001_Blue_Adventure_Shorts_Front.jpg' />
+
+        <Product id = 'Mens Printed Walk' title = 'Mens Printed Walk Short' price = {199.98}rating = {5} image = 'https://www.picknpayclothing.co.za/media/catalog/product/cache/38bfb0e5b25353c4f7bc7d84e4c9d2c6/image/5078259577/mens-printed-walk-short.jpg' />
+        </div>
+
+        <div className='home__row'>
+          <Product  id = 'Mens Chinos' title = 'Mens Chinos - Regular Fit' price = {249.96}rating = {5} image = 'https://www.picknpayclothing.co.za/media/catalog/product/cache/3ff76aaa5c3f9b31919bd61f799d8fbf/9/1/913432001_Mens-Chinos-Regular-Fit_Front.jpg' />
+
+          <Product id = 'Mens Chinos - Slim Fit' title = 'Mens Chinos - Slim Fit fatigue' price = {249.87} rating = {5} image = 'https://www.picknpayclothing.co.za/media/catalog/product/cache/38bfb0e5b25353c4f7bc7d84e4c9d2c6/9/1/913401011_Mens-Chinos-Slim-Fit_Front.jpg' />
+
+          <Product id = 'Organic Cotton Vintage Logo Embroidered' title = 'Organic Cotton Vintage Logo Embroidered Joggers' price = {780} rating = {5} image = 'https://cdn.zando.co.za/p/427312-8920-213724-2-zoom.jpg' />
+
+          <Product id = 'Organic Cotton Slim' title = 'Organic Cotton Slim Jeans' price = {1500} rating = {5} image = 'https://cdn.zando.co.za/p/432006-3589-600234-2-zoom.jpg' />
+        </div>
     </div>
   )
 }

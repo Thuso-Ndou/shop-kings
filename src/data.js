@@ -731,14 +731,14 @@ const data = {
         {
             id:  'Mens Printed Walk',
             title: 'Mens Printed Walk Short',
-            price: 199,
+            price: 199.98,
             rating: 5,
             image: 'https://www.picknpayclothing.co.za/media/catalog/product/cache/38bfb0e5b25353c4f7bc7d84e4c9d2c6/image/5078259577/mens-printed-walk-short.jpg',
         },
         {
             id:  'Mens Chinos', 
             title: 'Mens Chinos - Regular Fit',
-            price: 249,
+            price: 249.96,
             rating: 5,
             image: 'https://www.picknpayclothing.co.za/media/catalog/product/cache/3ff76aaa5c3f9b31919bd61f799d8fbf/9/1/913432001_Mens-Chinos-Regular-Fit_Front.jpg',
         },
@@ -752,7 +752,7 @@ const data = {
         {
             id:  'Mens Chinos - Slim Fit',
             title: 'Mens Chinos - Slim Fit fatigue',
-            price: 249,
+            price: 249.87,
             rating: 5,
             image: 'https://www.picknpayclothing.co.za/media/catalog/product/cache/38bfb0e5b25353c4f7bc7d84e4c9d2c6/9/1/913401011_Mens-Chinos-Slim-Fit_Front.jpg',
         },

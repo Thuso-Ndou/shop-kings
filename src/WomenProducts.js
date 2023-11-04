@@ -8,6 +8,7 @@ export default function WomenProducts() {
         <h1 className='page__head'>Women Products</h1>
 
         {/* Product with title, price, rating, image */}
+        <h2 className='page__header'>Latest Products</h2>
         <div className='home__row'>
             <Product id='DIAMANTE SANDAL' title='OLDER GIRLS DIAMANTE BLOCK HEEL SANDAL' price={299.99} rating={4} image='https://assets.superbalistcdn.co.za/300x432/filters:quality(75):format(jpg)/3390708/original.jpg' />
 
@@ -18,6 +19,7 @@ export default function WomenProducts() {
             <Product id='GRANDLY' title='OLDER GIRLS GLITTER PARTY HEEL' price={259.95} rating={4} image='https://assets.superbalistcdn.co.za/300x432/filters:quality(75):format(jpg)/3398281/original.jpg' />
         </div>
 
+        <h2 className='page__header'>Women's Shoes</h2>
         <div className='home__row'>
          <Product id='STEVE MADDEN' title='STEVE MADDEN INTL LIGHT-UP NUDE HEELS' price={149.95} rating={3} image='https://stevemadden.co.za/cdn/shop/files/STEVEMADDEN-INTL_LIGHT-UP_NUDE_b090b967-3b63-4f75-b6c7-eb3bb984184e_grande.jpg?v=1690449466' />
 
@@ -38,6 +40,28 @@ export default function WomenProducts() {
           <Product id='WARRIOR WOMEN BOOTS' title='WARRIOR WOMEN FULL FOOT WINTER BOOTS' price={569.99} rating={5} image='https://zz.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/45/9653/1.jpg?8714' />
         </div>
 
+        <h2 className='page__header'>Women's Tops</h2>
+        <div className='home__row'>
+          <Product id = 'Rib-knit top' title = 'Rib-knit top - dark grey' price = {235.97} rating = {5} image = 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3410898/original.jpg' />
+
+          <Product id='KINGS WOMEN BOOTS' title='KINGS WOMEN ROSTY LO HEEL BLACK BOOTS' price={469.93} rating={4} image='https://zz.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/64/9653/1.jpg?2086' />
+
+          <Product id='HECA WOMEN SANDALS' title='HECA WOMEN VELCRO PLATFORM SLIDE SANDALS' price={99.99} rating={3} image='https://zz.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/83/2643/1.jpg?0487' />
+
+          <Product id='UNREAL WOMEN SANDAL' title='UNREAL WOMEN ESPADRILLE SQ TOE WEDGE SANDALS' price={329.99} rating={5} image='https://www.shoecity.co.za/cdn/shop/files/LadiesSep-65.jpg?v=1692877454' />
+        </div>
+
+        <div className='home__row'>
+          <Product id='CROOK HEEL' title='CROOK BLACK WOMEN STYLISH HEELS' price={169.94} rating={5} image='https://cdn.media.amplience.net/i/mrpricegroup/01_102204842_SI_11?$preset$&w=320' />
+
+          <Product id='ZAKE SUMMER SANDAL' title='ZAKE WOMEN TWO STRIPED GRAY/DIAMOND SUMMER SANDALS' price={109.99} rating={3} image='https://cdn.media.amplience.net/i/mrpricegroup/01_102217959_SI_11?$preset$&w=320' />
+
+          <Product id='MARIA HEEL' title='MARIA OLD SCHOOL WOMEN HEELS CREAMISH PINK' price={229.99} rating={5} image='https://cdn.media.amplience.net/i/mrpricegroup/01_102004262_SI_11?$preset$&w=320' />
+
+          <Product id='CAPA WOMEN HEELS' title='CAPA WOMEN PLASTIC LOW HEELS' price={59.99} rating={2} image='https://cdn.media.amplience.net/i/mrpricegroup/01_101837835_SI_11?$preset$&w=320' />
+        </div>
+
+        <h2 className='page__header'>Women's Bottoms</h2>
         <div className='home__row'>
           <Product id='ANDE WOMEN SANDALS' title='ANDE WOMEN TOE POST FOOTBED MULE SANDALS' price={119.95} rating={5} image='https://zz.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/57/4723/1.jpg?3286' />
 
