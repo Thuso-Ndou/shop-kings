@@ -44,42 +44,66 @@ export default function WomenProducts() {
         <div className='home__row'>
           <Product id = 'Rib-knit top' title = 'Rib-knit top - dark grey' price = {235.97} rating = {5} image = 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3410898/original.jpg' />
 
-          <Product id='KINGS WOMEN BOOTS' title='KINGS WOMEN ROSTY LO HEEL BLACK BOOTS' price={469.93} rating={4} image='https://zz.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/64/9653/1.jpg?2086' />
+          <Product id =  'Graphic ringer rickie za headline logo stripe' title = 'Graphic ringer rickie za headline logo stripe - gardenia/racing red' price = {330.99} rating = {5} image = 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3402701/original.jpg' />
 
-          <Product id='HECA WOMEN SANDALS' title='HECA WOMEN VELCRO PLATFORM SLIDE SANDALS' price={99.99} rating={3} image='https://zz.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/83/2643/1.jpg?0487' />
+          <Product id = 'Nyc stripe hoodie' title = 'Nyc stripe hoodie - white & navy' price = {550.64} rating = {5} image = 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3412924/original.jpg' />
 
-          <Product id='UNREAL WOMEN SANDAL' title='UNREAL WOMEN ESPADRILLE SQ TOE WEDGE SANDALS' price={329.99} rating={5} image='https://www.shoecity.co.za/cdn/shop/files/LadiesSep-65.jpg?v=1692877454' />
+          <Product id = 'Fitted lcn graphic longline tee' title = 'Fitted lcn graphic longline tee - vintage white' price = {349.78} rating = {5} image = 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3390721/original.jpg' />
         </div>
 
         <div className='home__row'>
-          <Product id='CROOK HEEL' title='CROOK BLACK WOMEN STYLISH HEELS' price={169.94} rating={5} image='https://cdn.media.amplience.net/i/mrpricegroup/01_102204842_SI_11?$preset$&w=320' />
+          <Product  id = 'Willa waffle short sleeve henley' title = 'Willa waffle short sleeve henley - stripe alpine/forest/sage green' price = {279.65} rating = {5} image = 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3394497/original.jpg' />
 
-          <Product id='ZAKE SUMMER SANDAL' title='ZAKE WOMEN TWO STRIPED GRAY/DIAMOND SUMMER SANDALS' price={109.99} rating={3} image='https://cdn.media.amplience.net/i/mrpricegroup/01_102217959_SI_11?$preset$&w=320' />
+          <Product id = 'Cropped strappy top' title = 'Cropped strappy top - light pink' price = {75.32} rating = {5} image = 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3413608/original.jpg'  />
 
-          <Product id='MARIA HEEL' title='MARIA OLD SCHOOL WOMEN HEELS CREAMISH PINK' price={229.99} rating={5} image='https://cdn.media.amplience.net/i/mrpricegroup/01_102004262_SI_11?$preset$&w=320' />
+          <Product id = '2-Pack cropped tube tops'
+            title = '2-Pack cropped tube tops - light pink & dark' price = {150.45} rating = {5} image = 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3414507/original.jpg' />
 
-          <Product id='CAPA WOMEN HEELS' title='CAPA WOMEN PLASTIC LOW HEELS' price={59.99} rating={2} image='https://cdn.media.amplience.net/i/mrpricegroup/01_101837835_SI_11?$preset$&w=320' />
+          <Product id = 'Oversized printed t-shirt' title = 'Oversized printed t-shirt - blue' price = {157.54} rating = {5} image = 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3414641/original.jpg' />
         </div>
 
-        <h2 className='page__header'>Women's Bottoms</h2>
+        <h2 className='page__header'>Women's Pants</h2>
         <div className='home__row'>
-          <Product id='ANDE WOMEN SANDALS' title='ANDE WOMEN TOE POST FOOTBED MULE SANDALS' price={119.95} rating={5} image='https://zz.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/57/4723/1.jpg?3286' />
+          <Product id = 'Trousers paloma' title = 'Trousers paloma - green' price = {899.65}
+            rating = {5} image = 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3374783/original.jpg' />
 
-          <Product id='KINGS WOMEN BOOTS' title='KINGS WOMEN ROSTY LO HEEL BLACK BOOTS' price={469.93} rating={4} image='https://zz.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/64/9653/1.jpg?2086' />
+          <Product id = 'Trousers loren' title = 'Trousers loren - mid green' price = {568.65}
+            rating = {5} image = 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3378663/original.jpg' />
 
-          <Product id='HECA WOMEN SANDALS' title='HECA WOMEN VELCRO PLATFORM SLIDE SANDALS' price={99.99} rating={3} image='https://zz.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/83/2643/1.jpg?0487' />
+          <Product id = 'STELLA MORGAN' title = 'Open side harem pants with front detail - black' price = {499.87} rating = {5} image = 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3412824/original.jpg' />
 
-          <Product id='UNREAL WOMEN SANDAL' title='UNREAL WOMEN ESPADRILLE SQ TOE WEDGE SANDALS' price={329.99} rating={5} image='https://www.shoecity.co.za/cdn/shop/files/LadiesSep-65.jpg?v=1692877454' />
+          <Product id = 'Linen-blend pull-on trousers' title = 'Linen-blend pull-on trousers - cream leaf-patterned' price = {349.89} rating = {5} image = 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3410259/original.jpg'  />
         </div>
 
         <div className='home__row'>
-          <Product id='CROOK HEEL' title='CROOK BLACK WOMEN STYLISH HEELS' price={169.94} rating={5} image='https://cdn.media.amplience.net/i/mrpricegroup/01_102204842_SI_11?$preset$&w=320' />
+          <Product id = 'Bella Bootleg' title = 'Bella Bootleg Pant' price = {350.76} rating = {5} image = 'https://cottonon.com/dw/image/v2/BBDS_PRD/on/demandware.static/-/Sites-catalog-master-women/default/dwf1520a81/2056807/2056807-01-2.jpg?sw=640&sh=960&sm=fit' />
 
-          <Product id='ZAKE SUMMER SANDAL' title='ZAKE WOMEN TWO STRIPED GRAY/DIAMOND SUMMER SANDALS' price={109.99} rating={3} image='https://cdn.media.amplience.net/i/mrpricegroup/01_102217959_SI_11?$preset$&w=320' />
+          <Product id = 'Loose Straight' title = 'Loose Straight Jean' price = {478.47} rating = {5} image = 'https://cottonon.com/dw/image/v2/BBDS_PRD/on/demandware.static/-/Sites-catalog-master-women/default/dw7e4800a5/2053335/2053335-66-2.jpg?sw=640&sh=960&sm=fit' />
 
-          <Product id='MARIA HEEL' title='MARIA OLD SCHOOL WOMEN HEELS CREAMISH PINK' price={229.99} rating={5} image='https://cdn.media.amplience.net/i/mrpricegroup/01_102004262_SI_11?$preset$&w=320' />
+          <Product id = 'Curvy Stretch' title = 'Curvy Stretch Straight Jean' price = {680.54} rating = {5} image = 'https://cottonon.com/dw/image/v2/BBDS_PRD/on/demandware.static/-/Sites-catalog-master-women/default/dw2534ece8/2056530/2056530-02-2.jpg?sw=640&sh=960&sm=fit' />
 
-          <Product id='CAPA WOMEN HEELS' title='CAPA WOMEN PLASTIC LOW HEELS' price={59.99} rating={2} image='https://cdn.media.amplience.net/i/mrpricegroup/01_101837835_SI_11?$preset$&w=320' />
+          <Product id = 'Haven Wide' title = 'Haven Wide Leg Pant' price = {599.86} rating = {5} image = 'https://cottonon.com/dw/image/v2/BBDS_PRD/on/demandware.static/-/Sites-catalog-master-women/default/dw54d6b531/2056694/2056694-01-1.jpg?sw=800&sh=1200&sm=fit' />
+        </div>
+
+        <h2 className='page__header'>Women's Dresses</h2>
+        <div className='home__row'>
+          <Product id = 'Dress tina' title = 'Dress tina - silver' price = {473.78} rating = {5} image = 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3375687/original.jpg' />
+
+          <Product id = 'Dress mare' title = 'Dress mare - black' price = {921.99} rating = {5} image = 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3374648/original.jpg' />
+
+          <Product id = 'Cotton bodycon dress' title = 'Cotton bodycon dress - red' price = {199.98} rating = {5} image = 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3398553/original.jpg' />
+
+          <Product id = 'Tie-detail linen-blend dress' title = 'Tie-detail linen-blend dress - black/patterned' price = {529.87} rating = {5} image = 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3398927/original.jpg' />
+        </div>
+
+        <div className='home__row'>
+          <Product  id = 'halter neck ruched midi bodycon dress' title = 'halter neck ruched midi bodycon dress - black' price = {699.99} rating = {5} image = 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3405922/original.jpg' />
+
+          <Product id = 'Pleated metallic halter maxi dress' title = 'Pleated metallic halter maxi dress - silver' price = {745.98} rating = {5} image = 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3405673/original.jpg'  />
+
+          <Product id = 'Mini trapeze dress' title = 'Mini trapeze dress with tie detail - black' price = {499.97} rating = {5} image = 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3405889/original.jpg' />
+
+          <Product id = 'Belted sleeveless dress' title = 'Belted sleeveless dress - pink' price = {819.99} rating = {5} image = 'https://assets.superbalistcdn.co.za/500x720/filters:quality(75):format(jpg)/3405588/original.jpg' />
         </div>
     </div>
   )
